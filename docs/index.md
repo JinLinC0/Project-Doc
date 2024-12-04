@@ -5,7 +5,10 @@ layout: home
 hero:
   name: "JinLinChao"
   # text: "在线文档库"
-  tagline: 在线文档库
+  tagline: 个人在线文档网站
+  image:
+    src: /logo.svg
+    alt: 图片的提示信息
   actions:
     - theme: brand
       text: Markdown Examples
