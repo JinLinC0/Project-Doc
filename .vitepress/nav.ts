@@ -16,7 +16,7 @@ export default [
     { 
         text: '数据库',
         items: [
-            { text: 'mysql', link: '/html/基础知识' },
+            { text: 'mysql', link: '/mysql/基本概念' },
         ]
     },
     { 

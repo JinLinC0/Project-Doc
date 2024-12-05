@@ -18,4 +18,17 @@ export default {
             ]
         }
     ],
+
+    '/mysql/': [
+        {
+            text: 'mysql',
+            items: [
+                { text: '基本概念', link: '/mysql/基本概念' },
+                { text: '连接数据库服务器', link: '/mysql/连接数据库服务器' },
+                { text: '导入外部SQL文件', link: '/mysql/导入外部SQL文件' },
+                { text: '数据库管理操作', link: '/mysql/数据库管理操作' },
+                { text: '问题记录', link: '/mysql/问题记录' },
+            ]
+        }
+    ]
 }
