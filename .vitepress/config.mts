@@ -4,7 +4,7 @@ import sidebar from './sidebar'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "JinLinChao个人在线文档库",
+  title: "JinLinC个人在线文档库",
   description: "分享个人的开发学习文档",
   srcDir: "./docs/",
   themeConfig: {
@@ -16,7 +16,8 @@ export default defineConfig({
     nav,
     sidebar,
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/jinlinchao123?tab=repositories' },
+      { icon: 'gitee', link: 'https://gitee.com/jin-linchao' },
     ],
     footer: {
       message: 'Released under the MIT License.',

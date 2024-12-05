@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "JinLinChao"
+  name: "JinLinC"
   # text: "在线文档库"
   tagline: 个人在线文档网站
   image:
@@ -11,7 +11,7 @@ hero:
     alt: 图片的提示信息
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 个人简介
       link: /markdown-examples
     - theme: alt
       text: API Examples
@@ -22,7 +22,7 @@ features:
     details: 不断更新学习过程中的学习笔记，不断完善！
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 联系方式
+    details: 手机号码：13456670599 邮箱：2794810071@qq.com
 ---
 
