@@ -4,6 +4,7 @@ export default [
         text: '前端',
         items: [
             { text: 'html', link: '/html/基础知识' },
+            { text: 'vitepress', link: '/vitepress/快速搭建' },
         ]
     },
     { 
