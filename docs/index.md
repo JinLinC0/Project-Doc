@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "JinLinC"
   # text: "在线文档库"
-  tagline: 个人在线文档网站
+  tagline: 记录学习，分享知识，个人在线文档
   image:
     src: /logo.svg
     alt: 图片的提示信息
@@ -24,5 +24,7 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: 联系方式
     details: 手机号码：13456670599 邮箱：2794810071@qq.com
+  - title: 个人项目
+    details: (https://github.com/JinLinC)
 ---
 

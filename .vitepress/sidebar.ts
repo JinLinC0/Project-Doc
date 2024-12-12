@@ -18,7 +18,6 @@ export default {
             ]
         }
     ],
-
     '/mysql/': [
         {
             text: 'mysql',
@@ -27,6 +26,8 @@ export default {
                 { text: '连接数据库服务器', link: '/mysql/连接数据库服务器' },
                 { text: '导入外部SQL文件', link: '/mysql/导入外部SQL文件' },
                 { text: '数据库管理操作', link: '/mysql/数据库管理操作' },
+                { text: '数据类型', link: '/mysql/数据类型'},
+                { text: '正则表达式在Mysql中的使用', link: '/mysql/正则表达式在Mysql中的使用' },
                 { text: '问题记录', link: '/mysql/问题记录' },
             ]
         }

@@ -1,0 +1,38 @@
+/* 调整 hero 头像的位置和大小 */
+.VPHomeHero .image-container {
+    margin-top: 40px;
+}
+
+.VPHomeHero .image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.VPHomeHero .image:hover {
+    transform: scale(1.1);
+}
+
+
+/* 调整 features 信息框的大小 */
+.VPHomeFeatures .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.VPHomeFeatures .item {
+    flex: 1 1 30%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.VPHomeFeatures .item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    cursor: default;
+}
