@@ -14,9 +14,9 @@ hero:
       text: 个人简介
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 简历下载
       link: /api-examples
-
+      
 features:
   - title: 不断更新
     details: 不断更新学习过程中的学习笔记，不断完善！
@@ -24,7 +24,6 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: 联系方式
     details: 手机号码：13456670599 邮箱：2794810071@qq.com
-  - title: 个人项目
-    details: (https://github.com/JinLinC)
 ---
 
+<HomeComponent />
