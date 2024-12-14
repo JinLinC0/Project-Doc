@@ -14,6 +14,7 @@
 <script setup>
 import { siteData } from './siteData'
 </script>
+
 <style lang="scss">
 .color-pink {
     background: #90f;
@@ -35,6 +36,9 @@ import { siteData } from './siteData'
     width: 100%;
     height: 100%;
     margin: 10px auto;
+    background-color: var(--vp-c-bg); /* 使用 VitePress 的背景颜色变量 */
+    color: var(--vp-c-text); /* 使用 VitePress 的文本颜色变量 */
+    font-family: var(--vp-font-family-base); /* 使用 VitePress 的系统字体 */
 
     .ui-title {
         display: flex;
@@ -42,6 +46,8 @@ import { siteData } from './siteData'
         justify-content: center;
         height: 60px;
         font-size: 26px;
+        color: var(--vp-c-text); /* 使用 VitePress 的文本颜色变量 */
+        font-family: var(--vp-font-family-base); /* 使用 VitePress 的系统字体 */
     }
 }
 
@@ -50,6 +56,7 @@ import { siteData } from './siteData'
     gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(224px, 1fr));
     justify-content: space-between;
+    font-family: var(--vp-font-family-base); /* 使用 VitePress 的系统字体 */
 
     .link {
         height: 100%;
@@ -59,10 +66,11 @@ import { siteData } from './siteData'
         .link {
             text-decoration: none;
             display: block;
-            color: #333;
-            background: #252323;
+            color: var(--vp-c-text); /* 使用 VitePress 的文本颜色变量 */
+            background: var(--vp-c-bg-soft); /* 使用 VitePress 的背景颜色变量 */
             border-radius: 6px;
             transition: transform 0.3s ease;
+            font-family: var(--vp-font-family-base); /* 使用 VitePress 的系统字体 */
         }
 
         .link:hover {
@@ -74,9 +82,10 @@ import { siteData } from './siteData'
             height: 80px;
             padding-top: 25px;
             font-size: 24px;
-            color: #fff;
+            color: var(--vp-c-text-light); /* 使用 VitePress 的文本颜色变量 */
             text-align: center;
             border-radius: 6px 6px 0 0;
+            font-family: var(--vp-font-family-base); /* 使用 VitePress 的系统字体 */
         }
 
         .desc {
@@ -84,10 +93,11 @@ import { siteData } from './siteData'
             padding: 0 12px;
             margin-top: 14px;
             font-size: 13px;
-            color: #fff;
+            color: var(--vp-c-text-light); /* 使用 VitePress 的文本颜色变量 */
             overflow: hidden;
             text-overflow: ellipsis;
             -webkit-box-orient: vertical;
+            font-family: var(--vp-font-family-base); /* 使用 VitePress 的系统字体 */
         }
     }
 }
