@@ -3,8 +3,7 @@ export default [
     { 
         text: '前端',
         items: [
-            { text: 'html', link: '/html/基础知识' },
-            { text: 'vitepress', link: '/vitepress/快速搭建' },
+            { text: 'vitepress', link: '/F_vitepress/快速搭建' },
         ]
     },
     { 
@@ -16,7 +15,7 @@ export default [
     { 
         text: '数据库',
         items: [
-            { text: 'mysql', link: '/mysql/基本概念' },
+            { text: 'mysql', link: '/D_mysql/基本概念' },
         ]
     },
     { 
@@ -28,7 +27,7 @@ export default [
     { 
         text: '开发工具',
         items: [
-            { text: 'git', link: '/git/关于Git' },
+            { text: 'git', link: '/T_git/关于Git' },
         ]
     },
     { 
@@ -38,9 +37,9 @@ export default [
         ]
     },
     { 
-        text: '论文和算法',
+        text: '论文',
         items: [
-            { text: 'html', link: '/html/基础知识' },
+            { text: 'communicate', link: '/P_communicate/20241031' },
         ]
     }
 ]
