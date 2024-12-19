@@ -1,0 +1,40 @@
+## `VSCode`中使用`Git`
+
+在`VSCode`中使用`Git`建议先安装两个插件：`Git Graph`和`GitLens`
+
+- 提交代码
+
+  选择需要提交的文件，点击旁边的+进行暂存更改，输入修改信息（提示信息），在推送`Push`之前先拉取`Pull`一下项目的代码
+
+- `VSCode`分支切换回主分支出现在签出前，请清理仓库工作树的问题：
+
+  由于是修改代码冲突，在VSCode新建或者打开终端，在终端输入：
+
+  ```ssh
+  // 先将本地修改存储起来
+  git stash 
+  // 拉取远程
+  git pull
+  // 还原暂存内容
+  git stash pop 
+  ```
+
+  也可以放弃本地修改：
+
+  ```ssh
+  git reset --hard
+  git pull
+  ```
+
+- 同步创建的远程分支：`git remote update origin --prune`
+
+- 创建忽略提交文件`.gitignore`，创建了这个忽略文件（这个忽略文件一般与`.git`文件同级），在文件中的文件路径就不会被提交到`Git`的远程，忽略文件的内容一般如下所示：
+
+  ```ssh
+  node_modules
+  /dist
+  yarn.lock
+  ```
+
+  > 在忽略文件中的内容，不管是文件还是文件夹，都不会被进行云端的提交
+
