@@ -41,7 +41,7 @@ export default {
                 { text: '发布软件包', link: '/T_git/发布软件包' },
                 { text: '项目托管平台', link: '/T_git/项目托管平台' },
                 { text: '自动部署', link: '/T_git/自动部署'},
-                { text: 'VSCode中使用Git', link: '/T_git/VSCode中使用Git'},
+                { text: '常见问题', link: '/T_git/常见问题'},
                 { text: '章节合并', link: '/T_git/Git' },
             ]
         }
