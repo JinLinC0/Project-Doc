@@ -1,6 +1,6 @@
 export const siteData = [
     {
-        name: "Vite",
+        name: "项目一",
         desc: "下一代前端工具，极速的开发体验。",
         link: "https://vitejs.dev/",
         className: "color-pink"
