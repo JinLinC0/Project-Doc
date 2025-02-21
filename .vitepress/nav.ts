@@ -36,10 +36,10 @@ export default [
             { text: 'html', link: '/html/基础知识' },
         ]
     },
-    { 
-        text: '论文',
-        items: [
-            { text: 'communicate', link: '/P_communicate/20241031' },
-        ]
-    }
+    // { 
+    //     text: '论文',
+    //     items: [
+    //         { text: 'communicate', link: '/P_communicate/20241031' },
+    //     ]
+    // }
 ]
