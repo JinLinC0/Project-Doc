@@ -54,7 +54,7 @@ export default {
         {
             text: 'Git',
             items: [
-                { text: '关于Git', link: '/T_Git/关于Git' },
+                { text: '基本概念', link: '/T_Git/基本概念' },
                 { text: '常用指令', link: '/T_Git/常用指令' },
                 { text: '配置用户信息', link: '/T_Git/配置用户信息' },
                 { text: '创建本地仓库', link: '/T_Git/创建本地仓库' },

@@ -28,7 +28,7 @@ export default [
     { 
         text: '开发工具',
         items: [
-            { text: 'Git', link: '/T_Git/关于Git' },
+            { text: 'Git', link: '/T_Git/基本概念' },
         ]
     },
     { 
