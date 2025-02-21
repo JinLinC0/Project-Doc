@@ -48,7 +48,7 @@ export default {
     ],
     /**
      * 开发工具部分
-     * 包括Markdown、Git、VSCode
+     * 包括Markdown、Git、VSCode、Docker
      */
     '/T_Markdown/': [
         {
@@ -82,13 +82,23 @@ export default {
     ],
     '/T_VSCode/': [
         {
-            text: 'Git',
+            text: 'VSCode',
             items: [
                 { text: '基本概念', link: '/T_VSCode/基本概念' },
                 { text: '界面介绍', link: '/T_VSCode/界面介绍' },
                 { text: '主题', link: '/T_VSCode/主题' },
                 { text: '插件拓展', link: '/T_VSCode/插件拓展' },
                 { text: '快捷键', link: '/T_VSCode/快捷键'},
+            ]
+        }
+    ],
+    '/T_Docker/': [
+        {
+            text: 'Docker',
+            items: [
+                { text: '基本概念', link: '/T_Docker/基本概念' },
+                { text: '基本使用', link: '/T_Docker/基本使用' },
+                { text: '自己开发Docker镜像', link: '/T_Docker/自己开发Docker镜像' },
             ]
         }
     ],
