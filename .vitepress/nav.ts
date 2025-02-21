@@ -3,19 +3,20 @@ export default [
     { 
         text: '前端',
         items: [
-            { text: 'vitepress', link: '/F_vitepress/快速搭建' },
+            { text: 'Vitepress', link: '/F_Vitepress/快速搭建' },
         ]
     },
     { 
         text: '后端',
         items: [
-            { text: 'django', link: '/html/基础知识' },
+            { text: 'Django', link: '/html/基础知识' },
         ]
     },
     { 
         text: '数据库',
         items: [
-            { text: 'mysql', link: '/D_mysql/基本概念' },
+            { text: 'MySQL', link: '/D_MySQL/基本概念' },
+            { text: 'PostgreSQL', link: '/D_PostgreSQL/基本概念' },
         ]
     },
     { 
@@ -27,7 +28,7 @@ export default [
     { 
         text: '开发工具',
         items: [
-            { text: 'git', link: '/T_git/关于Git' },
+            { text: 'Git', link: '/T_Git/关于Git' },
         ]
     },
     { 
