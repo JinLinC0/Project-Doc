@@ -48,7 +48,7 @@ export default {
     ],
     /**
      * 开发工具部分
-     * 包括Markdown、Git
+     * 包括Markdown、Git、VSCode
      */
     '/T_Markdown/': [
         {
@@ -77,6 +77,18 @@ export default {
                 { text: '项目托管平台', link: '/T_Git/项目托管平台' },
                 { text: '自动部署', link: '/T_Git/自动部署'},
                 { text: '常见问题', link: '/T_Git/常见问题'},
+            ]
+        }
+    ],
+    '/T_VSCode/': [
+        {
+            text: 'Git',
+            items: [
+                { text: '基本概念', link: '/T_VSCode/基本概念' },
+                { text: '界面介绍', link: '/T_VSCode/界面介绍' },
+                { text: '主题', link: '/T_VSCode/主题' },
+                { text: '插件拓展', link: '/T_VSCode/插件拓展' },
+                { text: '快捷键', link: '/T_VSCode/快捷键'},
             ]
         }
     ],
