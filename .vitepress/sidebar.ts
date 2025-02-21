@@ -48,8 +48,19 @@ export default {
     ],
     /**
      * 开发工具部分
-     * 包括Git
+     * 包括Markdown、Git
      */
+    '/T_Markdown/': [
+        {
+            text: 'Markdown',
+            items: [
+                { text: '基本概念', link: '/T_Markdown/基本概念' },
+                { text: 'Typora快捷键', link: '/T_Markdown/Typora快捷键' },
+                { text: '软换行和硬换行', link: '/T_Markdown/软换行和硬换行' },
+                { text: '文本编辑模式', link: '/T_Markdown/文本编辑模式' },
+            ]
+        }
+    ],
     '/T_Git/': [
         {
             text: 'Git',

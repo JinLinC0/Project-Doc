@@ -28,6 +28,7 @@ export default [
     { 
         text: '开发工具',
         items: [
+            { text: 'Markdown', link: '/T_Markdown/基本概念' },
             { text: 'Git', link: '/T_Git/基本概念' },
         ]
     },
