@@ -47,6 +47,21 @@ export default {
         }
     ],
     /**
+     * 后端
+     * 包括NestJs
+     */
+    '/B_NestJs/': [
+        {
+            text: 'NestJs',
+            items: [
+                { text: '基本概念', link: '/B_NestJs/基本概念' },
+                { text: '环境安装', link: '/B_NestJs/环境安装' },
+                { text: '概念介绍和文件结构', link: '/B_NestJs/概念介绍和文件结构' },
+                { text: '依赖注入', link: '/B_NestJs/依赖注入' },
+            ]
+        }
+    ],
+    /**
      * 开发工具部分
      * 包括Markdown、Git、VSCode、Docker
      */

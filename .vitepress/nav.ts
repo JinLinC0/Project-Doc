@@ -7,16 +7,16 @@ export default [
         ]
     },
     { 
-        text: '后端',
-        items: [
-            { text: 'Django', link: '/html/基础知识' },
-        ]
-    },
-    { 
         text: '数据库',
         items: [
             { text: 'MySQL', link: '/D_MySQL/基本概念' },
             { text: 'PostgreSQL', link: '/D_PostgreSQL/基本概念' },
+        ]
+    },
+    { 
+        text: '后端',
+        items: [
+            { text: 'NestJS', link: '/B_NestJS/基本概念' },
         ]
     },
     { 
