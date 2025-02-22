@@ -4,7 +4,7 @@ export default [
         text: '前端',
         items: [
             { text: 'HTML', link: '/F_HTML/基本概念' },
-            { text: 'Vitepress', link: '/F_Vitepress/快速搭建' },
+            { text: 'VitePress', link: '/F_VitePress/基本概念' },
         ]
     },
     { 

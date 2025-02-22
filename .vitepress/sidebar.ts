@@ -16,14 +16,15 @@ export default {
             ]
         }
     ],
-    '/F_Vitepress/': [
+    '/F_VitePress/': [
         {
-            text: 'Vitepress',
+            text: 'VitePress',
             items: [
-                { text: '快速搭建', link: '/F_Vitepress/快速搭建' },
-                { text: '基本配置', link: '/F_Vitepress/基本配置' },
-                { text: '自定义首页', link: '/F_Vitepress/自定义首页' },
-                { text: '问题记录', link: '/F_Vitepress/问题记录'},
+                { text: '基本概念', link: '/F_VitePress/基本概念' },
+                { text: '快速搭建', link: '/F_VitePress/快速搭建' },
+                { text: '基本配置', link: '/F_VitePress/基本配置' },
+                { text: '自定义首页', link: '/F_VitePress/自定义首页' },
+                { text: '问题记录', link: '/F_VitePress/问题记录'},
             ]
         }
     ],
