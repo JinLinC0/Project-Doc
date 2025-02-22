@@ -1,4 +1,21 @@
 export default {
+    /**
+     * 前端部分
+     * 包括HTML和Vitepress
+     */
+    '/F_HTML/': [
+        {
+            text: 'HTML',
+            items: [
+                { text: '基础概念', link: '/F_HTML/基础概念' },
+                { text: '文档结构', link: '/F_HTML/文档结构' },
+                { text: '标签', link: '/F_HTML/标签' },
+                { text: '图片和链接', link: '/F_HTML/图片和链接'},
+                { text: '表单', link: '/F_HTML/表单'},
+                { text: '表格与音频', link: '/F_HTML/表格与音频'},
+            ]
+        }
+    ],
     '/F_Vitepress/': [
         {
             text: 'Vitepress',
@@ -47,7 +64,7 @@ export default {
         }
     ],
     /**
-     * 后端
+     * 后端部分
      * 包括NestJs
      */
     '/B_NestJs/': [
