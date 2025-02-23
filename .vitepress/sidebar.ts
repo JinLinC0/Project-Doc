@@ -122,6 +122,7 @@ export default {
                 { text: '主题', link: '/T_VSCode/主题' },
                 { text: '插件拓展', link: '/T_VSCode/插件拓展' },
                 { text: '快捷键', link: '/T_VSCode/快捷键'},
+                { text: '使用积累', link: '/T_VSCode/使用积累'},
             ]
         }
     ],
