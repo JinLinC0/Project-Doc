@@ -76,6 +76,7 @@ export default {
                 { text: '环境安装', link: '/B_NestJs/环境安装' },
                 { text: '概念介绍和文件结构', link: '/B_NestJs/概念介绍和文件结构' },
                 { text: '依赖注入', link: '/B_NestJs/依赖注入' },
+                { text: '服务提供者', link: '/B_NestJs/服务提供者' },
             ]
         }
     ],
