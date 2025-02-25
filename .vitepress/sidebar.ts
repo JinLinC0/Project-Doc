@@ -78,6 +78,7 @@ export default {
                 { text: '依赖注入', link: '/B_NestJs/依赖注入' },
                 { text: '服务提供者', link: '/B_NestJs/服务提供者' },
                 { text: '模块', link: '/B_NestJs/模块' },
+                { text: '数据库相关', link: '/B_NestJs/数据库相关' },
             ]
         }
     ],
