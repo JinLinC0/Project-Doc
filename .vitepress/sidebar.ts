@@ -80,6 +80,7 @@ export default {
                 { text: '模块', link: '/B_NestJs/模块' },
                 { text: '配置管理', link: '/B_NestJs/配置管理' },
                 { text: '数据库相关', link: '/B_NestJs/数据库相关' },
+                { text: '管道与验证', link: '/B_NestJs/管道与验证' },
             ]
         }
     ],
