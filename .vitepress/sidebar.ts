@@ -81,6 +81,7 @@ export default {
                 { text: '配置管理', link: '/B_NestJs/配置管理' },
                 { text: '数据库相关', link: '/B_NestJs/数据库相关' },
                 { text: '管道与验证', link: '/B_NestJs/管道与验证' },
+                { text: '注册和登录', link: '/B_NestJs/注册和登录' },
             ]
         }
     ],
