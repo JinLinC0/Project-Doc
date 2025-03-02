@@ -33,6 +33,7 @@ export default [
             { text: 'Git', link: '/T_Git/基本概念' },
             { text: 'VSCode', link: '/T_VSCode/基本概念' },
             { text: 'Ubuntu', link: '/T_Ubuntu/基本概念' },
+            { text: 'Vim', link: '/T_Vim/基本概念' },
             { text: 'Docker', link: '/T_Docker/基本概念' },
         ]
     },

@@ -87,7 +87,7 @@ export default {
     ],
     /**
      * 开发工具部分
-     * 包括Markdown、Git、VSCode、Docker
+     * 包括Markdown、Git、VSCode、、Ubuntu、Vim、Docker
      */
     '/T_Markdown/': [
         {
@@ -145,6 +145,18 @@ export default {
                 { text: '进阶知识', link: '/T_Ubuntu/进阶知识' },
                 { text: '配置ssh', link: '/T_Ubuntu/配置ssh' },
                 { text: '常见技巧', link: '/T_Ubuntu/常见技巧' },
+            ]
+        }
+    ],
+    '/T_Vim/': [
+        {
+            text: 'Vim',
+            items: [
+                { text: '基本概念', link: '/T_Vim/基本概念' },
+                { text: '三大模式', link: '/T_Vim/三大模式' },
+                { text: '正常模式的常用操作', link: '/T_Vim/正常模式的常用操作' },
+                { text: '编辑模式的常用操作', link: '/T_Vim/编辑模式的常用操作' },
+                { text: '行底模式的常用操作', link: '/T_Vim/行底模式的常用操作' },
             ]
         }
     ],
