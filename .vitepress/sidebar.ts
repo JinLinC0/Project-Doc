@@ -10,9 +10,9 @@ export default {
                 { text: '基础概念', link: '/F_HTML/基础概念' },
                 { text: '文档结构', link: '/F_HTML/文档结构' },
                 { text: '标签', link: '/F_HTML/标签' },
-                { text: '图片和链接', link: '/F_HTML/图片和链接'},
-                { text: '表单', link: '/F_HTML/表单'},
-                { text: '表格与音频', link: '/F_HTML/表格与音频'},
+                { text: '图片和链接', link: '/F_HTML/图片和链接' },
+                { text: '表单', link: '/F_HTML/表单' },
+                { text: '表格与音频', link: '/F_HTML/表格与音频' },
             ]
         }
     ],
@@ -24,7 +24,7 @@ export default {
                 { text: '快速搭建', link: '/F_VitePress/快速搭建' },
                 { text: '基本配置', link: '/F_VitePress/基本配置' },
                 { text: '自定义首页', link: '/F_VitePress/自定义首页' },
-                { text: '问题记录', link: '/F_VitePress/问题记录'},
+                { text: '问题记录', link: '/F_VitePress/问题记录' },
             ]
         }
     ],
@@ -41,15 +41,15 @@ export default {
                 { text: '连接数据库服务器', link: '/D_MySQL/连接数据库服务器' },
                 { text: '导入外部SQL文件', link: '/D_MySQL/导入外部SQL文件' },
                 { text: '数据库管理操作', link: '/D_MySQL/数据库管理操作' },
-                { text: '数据类型', link: '/D_MySQL/数据类型'},
-                { text: '时间日期', link: '/D_MySQL/时间日期'},
-                { text: '排序和统计', link: '/D_MySQL/排序和统计'},
-                { text: '多表操作', link: '/D_MySQL/多表操作'},
+                { text: '数据类型', link: '/D_MySQL/数据类型' },
+                { text: '时间日期', link: '/D_MySQL/时间日期' },
+                { text: '排序和统计', link: '/D_MySQL/排序和统计' },
+                { text: '多表操作', link: '/D_MySQL/多表操作' },
                 { text: '正则表达式在MySQL中的使用', link: '/D_MySQL/正则表达式在MySQL中的使用' },
-                { text: '事务处理', link: '/D_MySQL/事务处理'},
-                { text: '锁机制', link: '/D_MySQL/锁机制'},
-                { text: '外键约束', link: '/D_MySQL/外键约束'},
-                { text: '索引优化', link: '/D_MySQL/索引优化'},
+                { text: '事务处理', link: '/D_MySQL/事务处理' },
+                { text: '锁机制', link: '/D_MySQL/锁机制' },
+                { text: '外键约束', link: '/D_MySQL/外键约束' },
+                { text: '索引优化', link: '/D_MySQL/索引优化' },
                 { text: '问题记录', link: '/D_MySQL/问题记录' },
             ]
         }
@@ -122,14 +122,14 @@ export default {
                 { text: '常用指令', link: '/T_Git/常用指令' },
                 { text: '配置用户信息', link: '/T_Git/配置用户信息' },
                 { text: '创建本地仓库', link: '/T_Git/创建本地仓库' },
-                { text: '克隆远程项目', link: '/T_Git/克隆远程项目'},
-                { text: '本地仓库相关操作', link: '/T_Git/本地仓库相关操作'},
+                { text: '克隆远程项目', link: '/T_Git/克隆远程项目' },
+                { text: '本地仓库相关操作', link: '/T_Git/本地仓库相关操作' },
                 { text: '分支管理', link: '/T_Git/分支管理' },
                 { text: 'Tag标签', link: '/T_Git/Tag标签' },
                 { text: '发布软件包', link: '/T_Git/发布软件包' },
                 { text: '项目托管平台', link: '/T_Git/项目托管平台' },
-                { text: '自动部署', link: '/T_Git/自动部署'},
-                { text: '常见问题', link: '/T_Git/常见问题'},
+                { text: '自动部署', link: '/T_Git/自动部署' },
+                { text: '常见问题', link: '/T_Git/常见问题' },
             ]
         }
     ],
@@ -181,17 +181,17 @@ export default {
                 { text: '界面介绍', link: '/T_VSCode/界面介绍' },
                 { text: '主题', link: '/T_VSCode/主题' },
                 { text: '插件拓展', link: '/T_VSCode/插件拓展' },
-                { text: '快捷键', link: '/T_VSCode/快捷键'},
-                { text: '使用积累', link: '/T_VSCode/使用积累'},
+                { text: '快捷键', link: '/T_VSCode/快捷键' },
+                { text: '使用积累', link: '/T_VSCode/使用积累' },
             ]
         }
     ],
 
-     /**
+    /**
      * 经验积累部分
-     * 包括Web开发环境搭建（按照首编写时间排序）
+     * 包括Web开发环境搭建、面试问题积累（按照首编写时间排序）
      */
-     '/E_Web开发环境搭建/': [
+    '/E_Web开发环境搭建/': [
         {
             text: 'Web开发环境搭建',
             items: [
@@ -202,7 +202,16 @@ export default {
             ]
         }
     ],
-    
+    '/E_面试问题积累/': [
+        {
+            text: '面试问题积累',
+            items: [
+                { text: '基本概念', link: '/E_面试问题积累/基本概念' },
+                { text: '基础性问题', link: '/E_面试问题积累/基础性问题' },
+            ]
+        }
+    ],
+
     // '/P_communicate/': [
     //     {
     //         text: 'communicate',

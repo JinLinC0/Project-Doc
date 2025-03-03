@@ -42,6 +42,7 @@ export default [
         text: '经验积累',
         items: [
             { text: 'Web开发环境搭建', link: '/E_Web开发环境搭建/基本概念' },
+            { text: '面试问题积累', link: '/E_面试问题积累/基本概念' },
         ]
     },
     // { 
