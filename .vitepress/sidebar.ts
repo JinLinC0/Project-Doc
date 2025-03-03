@@ -87,16 +87,27 @@ export default {
     ],
     /**
      * 开发工具部分
-     * 包括Markdown、Git、VSCode、、Ubuntu、Vim、Docker
+     * 包括Blender、Docker、Git、Markdown、Ubuntu、Vim、VSCode（按照首字母排序）
      */
-    '/T_Markdown/': [
+    '/T_Blender/': [
         {
-            text: 'Markdown',
+            text: 'Blender',
             items: [
-                { text: '基本概念', link: '/T_Markdown/基本概念' },
-                { text: 'Typora快捷键', link: '/T_Markdown/Typora快捷键' },
-                { text: '软换行和硬换行', link: '/T_Markdown/软换行和硬换行' },
-                { text: '文本编辑模式', link: '/T_Markdown/文本编辑模式' },
+                { text: '基本概念', link: '/T_Blender/基本概念' },
+                { text: '场景的操作', link: '/T_Blender/场景的操作' },
+                { text: '对象的操作', link: '/T_Blender/对象的操作' },
+                { text: '加入node插件', link: '/T_Blender/加入node插件' },
+                { text: '技巧积累', link: '/T_Blender/技巧积累' },
+            ]
+        }
+    ],
+    '/T_Docker/': [
+        {
+            text: 'Docker',
+            items: [
+                { text: '基本概念', link: '/T_Docker/基本概念' },
+                { text: '基本使用', link: '/T_Docker/基本使用' },
+                { text: '自己开发Docker镜像', link: '/T_Docker/自己开发Docker镜像' },
             ]
         }
     ],
@@ -119,16 +130,14 @@ export default {
             ]
         }
     ],
-    '/T_VSCode/': [
+    '/T_Markdown/': [
         {
-            text: 'VSCode',
+            text: 'Markdown',
             items: [
-                { text: '基本概念', link: '/T_VSCode/基本概念' },
-                { text: '界面介绍', link: '/T_VSCode/界面介绍' },
-                { text: '主题', link: '/T_VSCode/主题' },
-                { text: '插件拓展', link: '/T_VSCode/插件拓展' },
-                { text: '快捷键', link: '/T_VSCode/快捷键'},
-                { text: '使用积累', link: '/T_VSCode/使用积累'},
+                { text: '基本概念', link: '/T_Markdown/基本概念' },
+                { text: 'Typora快捷键', link: '/T_Markdown/Typora快捷键' },
+                { text: '软换行和硬换行', link: '/T_Markdown/软换行和硬换行' },
+                { text: '文本编辑模式', link: '/T_Markdown/文本编辑模式' },
             ]
         }
     ],
@@ -160,28 +169,20 @@ export default {
             ]
         }
     ],
-    '/T_Docker/': [
+    '/T_VSCode/': [
         {
-            text: 'Docker',
+            text: 'VSCode',
             items: [
-                { text: '基本概念', link: '/T_Docker/基本概念' },
-                { text: '基本使用', link: '/T_Docker/基本使用' },
-                { text: '自己开发Docker镜像', link: '/T_Docker/自己开发Docker镜像' },
+                { text: '基本概念', link: '/T_VSCode/基本概念' },
+                { text: '界面介绍', link: '/T_VSCode/界面介绍' },
+                { text: '主题', link: '/T_VSCode/主题' },
+                { text: '插件拓展', link: '/T_VSCode/插件拓展' },
+                { text: '快捷键', link: '/T_VSCode/快捷键'},
+                { text: '使用积累', link: '/T_VSCode/使用积累'},
             ]
         }
     ],
-    '/T_Blender/': [
-        {
-            text: 'Blender',
-            items: [
-                { text: '基本概念', link: '/T_Blender/基本概念' },
-                { text: '场景的操作', link: '/T_Blender/场景的操作' },
-                { text: '对象的操作', link: '/T_Blender/对象的操作' },
-                { text: '加入node插件', link: '/T_Blender/加入node插件' },
-                { text: '技巧积累', link: '/T_Blender/技巧积累' },
-            ]
-        }
-    ],
+    
     // '/P_communicate/': [
     //     {
     //         text: 'communicate',
