@@ -170,6 +170,18 @@ export default {
             ]
         }
     ],
+    '/T_Blender/': [
+        {
+            text: 'Blender',
+            items: [
+                { text: '基本概念', link: '/T_Blender/基本概念' },
+                { text: '场景的操作', link: '/T_Blender/场景的操作' },
+                { text: '对象的操作', link: '/T_Blender/对象的操作' },
+                { text: '加入node插件', link: '/T_Blender/加入node插件' },
+                { text: '技巧积累', link: '/T_Blender/技巧积累' },
+            ]
+        }
+    ],
     // '/P_communicate/': [
     //     {
     //         text: 'communicate',

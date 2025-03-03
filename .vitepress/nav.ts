@@ -35,6 +35,7 @@ export default [
             { text: 'Ubuntu', link: '/T_Ubuntu/基本概念' },
             { text: 'Vim', link: '/T_Vim/基本概念' },
             { text: 'Docker', link: '/T_Docker/基本概念' },
+            { text: 'Blender', link: '/T_Blender/基本概念' },
         ]
     },
     { 
