@@ -155,8 +155,9 @@ export default {
                 { text: '重要目录', link: '/T_Ubuntu/重要目录' },
                 { text: '常用命令', link: '/T_Ubuntu/常用命令' },
                 { text: '进阶知识', link: '/T_Ubuntu/进阶知识' },
-                { text: '配置ssh', link: '/T_Ubuntu/配置ssh' },
+                { text: '安装Git和配置ssh', link: '/T_Ubuntu/安装Git和配置ssh' },
                 { text: '常见技巧', link: '/T_Ubuntu/常见技巧' },
+                { text: '问题记录', link: '/T_Ubuntu/问题记录' },
             ]
         }
     ],
