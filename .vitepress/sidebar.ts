@@ -211,6 +211,15 @@ export default {
             ]
         }
     ],
+    '/E_开发积累/': [
+        {
+            text: '开发积累',
+            items: [
+                { text: '基本概念', link: '/E_开发积累/基本概念' },
+                { text: '前端', link: '/E_开发积累/前端' },
+            ]
+        }
+    ],
 
     // '/P_communicate/': [
     //     {
