@@ -1,7 +1,7 @@
 export default {
     /**
      * 前端部分
-     * 包括HTML和Vitepress
+     * 包括HTML、Vitepress（按照首字母排序）
      */
     '/F_HTML/': [
         {
@@ -28,9 +28,10 @@ export default {
             ]
         }
     ],
+
     /**
      * 数据库部分
-     * 包括MySQL和PostgreSQL
+     * 包括MySQL、PostgreSQL（按照首字母排序）
      */
     '/D_MySQL/': [
         {
@@ -64,6 +65,7 @@ export default {
             ]
         }
     ],
+
     /**
      * 后端部分
      * 包括NestJs
@@ -85,6 +87,7 @@ export default {
             ]
         }
     ],
+
     /**
      * 开发工具部分
      * 包括Blender、Docker、Git、Markdown、Ubuntu、Vim、VSCode（按照首字母排序）
@@ -179,6 +182,22 @@ export default {
                 { text: '插件拓展', link: '/T_VSCode/插件拓展' },
                 { text: '快捷键', link: '/T_VSCode/快捷键'},
                 { text: '使用积累', link: '/T_VSCode/使用积累'},
+            ]
+        }
+    ],
+
+     /**
+     * 经验积累部分
+     * 包括Web开发环境搭建（按照首编写时间排序）
+     */
+     '/E_Web开发环境搭建/': [
+        {
+            text: 'Web开发环境搭建',
+            items: [
+                { text: '基本概念', link: '/E_Web开发环境搭建/基本概念' },
+                { text: '前端部分', link: '/E_Web开发环境搭建/前端部分' },
+                { text: '后端部分', link: '/E_Web开发环境搭建/后端部分' },
+                { text: 'GitHub托管代码', link: '/E_Web开发环境搭建/GitHub托管代码' },
             ]
         }
     ],

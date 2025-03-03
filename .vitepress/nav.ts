@@ -41,7 +41,7 @@ export default [
     { 
         text: '经验积累',
         items: [
-            { text: 'html', link: '/html/基础知识' },
+            { text: 'Web开发环境搭建', link: '/E_Web开发环境搭建/基本概念' },
         ]
     },
     // { 
