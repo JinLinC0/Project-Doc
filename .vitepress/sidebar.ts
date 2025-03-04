@@ -1,7 +1,7 @@
 export default {
     /**
      * 前端部分
-     * 包括HTML、Vitepress（按照首字母排序）
+     * 包括FastCrud、GoJs、HTML、Vitepress（按照首字母排序）
      */
     '/F_FastCrud/': [
         {
@@ -16,6 +16,22 @@ export default {
                 { text: '字段类型', link: '/F_FastCrud/字段类型' },
                 { text: '动态计算', link: '/F_FastCrud/动态计算' },
                 { text: '案例解决方案积累', link: '/F_FastCrud/案例解决方案积累' },
+            ]
+        }
+    ],
+    '/F_GoJs': [
+        {
+            text: 'GoJs',
+            items: [
+                { text: '基本概念', link: '/F_GoJs/基本概念' },
+                { text: '图表(Diagram)', link: '/F_GoJs/图表(Diagram)' },
+                { text: '数据模型(Model)', link: '/F_GoJs/数据模型(Model)' },
+                { text: '节点(Node)', link: '/F_GoJs/节点(Node)' },
+                { text: '端口(Port)', link: '/F_GoJs/端口(Port)' },
+                { text: '常用的API', link: '/F_GoJs/常用的API' },
+                { text: '拓展', link: '/F_GoJs/拓展' },
+                { text: 'SVG节点', link: '/F_GoJs/SVG节点' },
+                { text: 'RBM项目中的Gojs', link: '/F_GoJs/RBM项目中的Gojs' },
             ]
         }
     ],
