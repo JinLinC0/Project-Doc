@@ -3,6 +3,7 @@ export default [
     { 
         text: '前端',
         items: [
+            { text: 'FastCrud', link: '/F_FastCrud/基本概念' },
             { text: 'HTML', link: '/F_HTML/基本概念' },
             { text: 'VitePress', link: '/F_VitePress/基本概念' },
         ]

@@ -3,6 +3,22 @@ export default {
      * 前端部分
      * 包括HTML、Vitepress（按照首字母排序）
      */
+    '/F_FastCrud/': [
+        {
+            text: 'FastCrud',
+            items: [
+                { text: '基本概念', link: '/F_FastCrud/基本概念' },
+                { text: '表格与配置对应关系', link: '/F_FastCrud/表格与配置对应关系' },
+                { text: '页面配置', link: '/F_FastCrud/页面配置' },
+                { text: 'index.vue和crud.tsx之间的传值', link: '/F_FastCrud/index.vue和crud.tsx之间的传值' },
+                { text: 'columns的配置', link: '/F_FastCrud/columns的配置' },
+                { text: 'component组件配置项', link: '/F_FastCrud/component组件配置项' },
+                { text: '字段类型', link: '/F_FastCrud/字段类型' },
+                { text: '动态计算', link: '/F_FastCrud/动态计算' },
+                { text: '案例解决方案积累', link: '/F_FastCrud/案例解决方案积累' },
+            ]
+        }
+    ],
     '/F_HTML/': [
         {
             text: 'HTML',
