@@ -116,6 +116,8 @@ export default {
                 { text: '数据库相关', link: '/B_NestJs/数据库相关' },
                 { text: '管道与验证', link: '/B_NestJs/管道与验证' },
                 { text: '注册和登录', link: '/B_NestJs/注册和登录' },
+                { text: 'JWT认证', link: '/B_NestJs/JWT认证' },
+                { text: '文件上传', link: '/B_NestJs/文件上传' },
             ]
         }
     ],
