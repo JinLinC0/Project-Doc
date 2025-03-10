@@ -118,6 +118,7 @@ export default {
                 { text: '注册和登录', link: '/B_NestJs/注册和登录' },
                 { text: 'JWT认证', link: '/B_NestJs/JWT认证' },
                 { text: '文件上传', link: '/B_NestJs/文件上传' },
+                { text: 'CRUD增删改查', link: '/B_NestJs/CRUD增删改查' },
             ]
         }
     ],
