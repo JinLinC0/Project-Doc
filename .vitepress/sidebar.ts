@@ -100,8 +100,16 @@ export default {
 
     /**
      * 后端部分
-     * 包括NestJs
+     * 包括Java、NestJs（按照首字母排序）
      */
+    '/B_Java/': [
+        {
+            text: 'Java',
+            items: [
+                { text: '基本概念', link: '/B_Java/基本概念' },
+            ]
+        }
+    ],
     '/B_NestJs/': [
         {
             text: 'NestJs',

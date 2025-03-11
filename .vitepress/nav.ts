@@ -19,6 +19,7 @@ export default [
     { 
         text: '后端',
         items: [
+            { text: 'Java', link: '/B_Java/基本概念' },
             { text: 'NestJS', link: '/B_NestJS/基本概念' },
         ]
     },
