@@ -119,6 +119,7 @@ export default {
                 { text: 'JWT认证', link: '/B_NestJs/JWT认证' },
                 { text: '文件上传', link: '/B_NestJs/文件上传' },
                 { text: 'CRUD增删改查', link: '/B_NestJs/CRUD增删改查' },
+                { text: '角色验证', link: '/B_NestJs/角色验证' },
             ]
         }
     ],
