@@ -109,6 +109,7 @@ export default {
                 { text: '基本概念', link: '/B_Java/基本概念' },
                 { text: '转义字符', link: '/B_Java/转义字符' },
                 { text: '变量', link: '/B_Java/变量' },
+                { text: '运算符', link: '/B_Java/运算符' },
                 { text: 'API', link: '/B_Java/API' },
             ]
         }
