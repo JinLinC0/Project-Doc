@@ -108,8 +108,10 @@ export default {
             items: [
                 { text: '基本概念', link: '/B_Java/基本概念' },
                 { text: '转义字符', link: '/B_Java/转义字符' },
+                { text: '进制', link: '/B_Java/进制' },
                 { text: '变量', link: '/B_Java/变量' },
                 { text: '运算符', link: '/B_Java/运算符' },
+                { text: '键盘输入语句', link: '/B_Java/键盘输入语句' },
                 { text: 'API', link: '/B_Java/API' },
             ]
         }
