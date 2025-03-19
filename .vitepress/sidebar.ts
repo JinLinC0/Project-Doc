@@ -112,6 +112,7 @@ export default {
                 { text: '变量', link: '/B_Java/变量' },
                 { text: '运算符', link: '/B_Java/运算符' },
                 { text: '键盘输入语句', link: '/B_Java/键盘输入语句' },
+                { text: '控制结构', link: '/B_Java/控制结构' },
                 { text: 'API', link: '/B_Java/API' },
             ]
         }
