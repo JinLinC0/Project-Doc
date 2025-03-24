@@ -113,6 +113,7 @@ export default {
                 { text: '运算符', link: '/B_Java/运算符' },
                 { text: '键盘输入语句', link: '/B_Java/键盘输入语句' },
                 { text: '控制结构', link: '/B_Java/控制结构' },
+                { text: '数组', link: '/B_Java/数组' },
                 { text: 'API', link: '/B_Java/API' },
             ]
         }
