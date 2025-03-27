@@ -114,6 +114,7 @@ export default {
                 { text: '键盘输入语句', link: '/B_Java/键盘输入语句' },
                 { text: '控制结构', link: '/B_Java/控制结构' },
                 { text: '数组', link: '/B_Java/数组' },
+                { text: '类与对象', link: '/B_Java/类与对象' },
                 { text: 'API', link: '/B_Java/API' },
             ]
         }
