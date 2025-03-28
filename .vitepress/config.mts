@@ -16,7 +16,7 @@ export default defineConfig({
     nav,
     sidebar,
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/jinlinchao123?tab=repositories' },
+      { icon: 'github', link: 'https://github.com/JinLinC0' },
       { icon: 'gitee', link: 'https://gitee.com/jin-linchao' },
     ],
     footer: {
