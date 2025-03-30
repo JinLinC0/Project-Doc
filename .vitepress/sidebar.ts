@@ -141,6 +141,7 @@ export default {
                 { text: '数组', link: '/B_Java/数组' },
                 { text: '类与对象', link: '/B_Java/类与对象' },
                 { text: 'API', link: '/B_Java/API' },
+                { text: '面向对象编程', link: '/B_Java/面向对象编程' },
             ]
         }
     ],
