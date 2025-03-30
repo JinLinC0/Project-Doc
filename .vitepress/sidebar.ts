@@ -1,7 +1,7 @@
 export default {
     /**
      * 前端部分
-     * 包括FastCrud、GoJs、HTML、Vitepress（按照首字母排序）
+     * 包括FastCrud、GoJs、HTML、TailwindCSS、Vitepress（按照首字母排序）
      */
     '/F_FastCrud/': [
         {
@@ -39,12 +39,37 @@ export default {
         {
             text: 'HTML',
             items: [
-                { text: '基础概念', link: '/F_HTML/基础概念' },
+                { text: '基本概念', link: '/F_HTML/基本概念' },
                 { text: '文档结构', link: '/F_HTML/文档结构' },
                 { text: '标签', link: '/F_HTML/标签' },
                 { text: '图片和链接', link: '/F_HTML/图片和链接' },
                 { text: '表单', link: '/F_HTML/表单' },
                 { text: '表格与音频', link: '/F_HTML/表格与音频' },
+            ]
+        }
+    ],
+    '/F_TailwindCSS/': [
+        {
+            text: 'TailwindCSS',
+            items: [
+                { text: '基本概念', link: '/F_TailwindCSS/基本概念' },
+                { text: '安装配置', link: '/F_TailwindCSS/安装配置' },
+                { text: '背景类', link: '/F_TailwindCSS/背景类' },
+                { text: '元素大小类', link: '/F_TailwindCSS/元素大小类' },
+                { text: '边框和轮廓类', link: '/F_TailwindCSS/边框和轮廓类' },
+                { text: '阴影类', link: '/F_TailwindCSS/阴影类' },
+                { text: '边距类', link: '/F_TailwindCSS/边距类' },
+                { text: 'Flex类', link: '/F_TailwindCSS/Flex类' },
+                { text: 'grid类', link: '/F_TailwindCSS/grid类' },
+                { text: '定位类', link: '/F_TailwindCSS/定位类' },
+                { text: '文本类', link: '/F_TailwindCSS/文本类' },
+                { text: '图片类', link: '/F_TailwindCSS/图片类' },
+                { text: '显示和隐藏类', link: '/F_TailwindCSS/显示和隐藏类' },
+                { text: '伪类和状态类', link: '/F_TailwindCSS/伪类和状态类' },
+                { text: '过渡类', link: '/F_TailwindCSS/过渡类' },
+                { text: '响应式处理', link: '/F_TailwindCSS/响应式处理' },
+                { text: '封装复用的样式', link: '/F_TailwindCSS/封装复用的样式' },
+                { text: '使用积累', link: '/F_TailwindCSS/使用积累' },
             ]
         }
     ],
