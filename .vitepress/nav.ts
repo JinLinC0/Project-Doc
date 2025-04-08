@@ -23,6 +23,7 @@ export default [
             { text: 'Java后端学习规划', link: '/B_Java后端学习规划/Java后端学习规划' },
             { text: 'Java', link: '/B_Java/基本概念' },
             { text: 'NestJS', link: '/B_NestJS/基本概念' },
+            { text: 'Python', link: '/B_Python/基本概念' },
         ]
     },
     { 

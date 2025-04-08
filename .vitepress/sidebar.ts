@@ -125,7 +125,7 @@ export default {
 
     /**
      * 后端部分
-     * 包括Java、NestJs（按照首字母排序）
+     * 包括Java、NestJs（按照首字母排序）、Python
      */
     '/B_Java/': [
         {
@@ -163,6 +163,24 @@ export default {
                 { text: '文件上传', link: '/B_NestJs/文件上传' },
                 { text: 'CRUD增删改查', link: '/B_NestJs/CRUD增删改查' },
                 { text: '角色验证', link: '/B_NestJs/角色验证' },
+            ]
+        }
+    ],
+    '/B_Python/': [
+        {
+            text: 'Python',
+            items: [
+                { text: '基本概念', link: '/B_Python/基本概念' },
+                { text: '环境配置', link: '/B_Python/环境配置' },
+                { text: '基础知识', link: '/B_Python/基础知识' },
+                { text: '流程控制', link: '/B_Python/流程控制' },
+                { text: '高级数据类型', link: '/B_Python/高级数据类型' },
+                { text: '函数', link: '/B_Python/函数' },
+                { text: '面向对象', link: '/B_Python/面向对象' },
+                { text: '文件系统', link: '/B_Python/文件系统' },
+                { text: '语义操作系统', link: '/B_Python/语义操作系统' },
+                { text: '网络爬虫', link: '/B_Python/网络爬虫' },
+                { text: '使用技巧', link: '/B_Python/使用技巧' },
             ]
         }
     ],
