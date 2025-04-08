@@ -125,8 +125,18 @@ export default {
 
     /**
      * 后端部分
-     * 包括Java、NestJs（按照首字母排序）、Python
+     * 包括Hadoop、Java、NestJs（按照首字母排序）、Python
      */
+    '/B_Hadoop/': [
+        {
+            text: 'Hadoop',
+            items: [
+                { text: '基本概念', link: '/B_Hadoop/基本概念' },
+                { text: '节点虚拟机配置', link: '/B_Hadoop/节点虚拟机配置' },
+                { text: '基本使用', link: '/B_Hadoop/基本使用' },
+            ]
+        }
+    ],
     '/B_Java/': [
         {
             text: 'Java',
