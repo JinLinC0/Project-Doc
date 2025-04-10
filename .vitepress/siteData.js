@@ -1,25 +1,25 @@
 export const siteData = [
     {
         name: "项目一",
-        desc: "下一代前端工具，极速的开发体验。",
+        desc: ".......",
         link: "https://vitejs.dev/",
         className: "color-pink"
     },
     {
-        name: "Vue.js",
-        desc: "渐进式 JavaScript 框架",
+        name: "项目二",
+        desc: ".......",
         link: "https://vuejs.org/",
         className: "color-red"
     },
     {
-        name: "React",
-        desc: "用于构建用户界面的 JavaScript 库。",
+        name: "项目三",
+        desc: "........",
         link: "https://reactjs.org/",
         className: "color-blue-deep"
     },
     {
-        name: "Tailwind CSS",
-        desc: "实用优先的 CSS 框架，快速构建现代网站。",
+        name: "项目四",
+        desc: ".......",
         link: "https://tailwindcss.com/",
         className: "color-blue"
     }

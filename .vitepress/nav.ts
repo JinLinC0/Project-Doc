@@ -20,6 +20,7 @@ export default [
     { 
         text: '后端',
         items: [
+            { text: 'Django', link: '/B_Django/基本概念' },
             { text: 'Hadoop', link: '/B_Hadoop/基本概念' },
             { text: 'Java后端学习规划', link: '/B_Java后端学习规划/Java后端学习规划' },
             { text: 'Java', link: '/B_Java/基本概念' },

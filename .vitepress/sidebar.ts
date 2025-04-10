@@ -125,8 +125,23 @@ export default {
 
     /**
      * 后端部分
-     * 包括Hadoop、Java、NestJs（按照首字母排序）、Python
+     * 包括Django、Hadoop、Java、NestJs、Python（按照首字母排序）
      */
+    '/B_Django/': [
+        {
+            text: 'Django',
+            items: [
+                { text: '基本概念', link: '/B_Django/基本概念' },
+                { text: '模块', link: '/B_Django/模块' },
+                { text: '基本命令', link: '/B_Django/基本命令' },
+                { text: '搭建Django项目', link: '/B_Django/搭建Django项目' },
+                { text: 'url传参', link: '/B_Django/url传参' },
+                { text: '数据库交互', link: '/B_Django/数据库交互' },
+                { text: 'Form表单', link: '/B_Django/Form表单' },
+                { text: '项目应用积累', link: '/B_Django/项目应用积累' },
+            ]
+        }
+    ],
     '/B_Hadoop/': [
         {
             text: 'Hadoop',
