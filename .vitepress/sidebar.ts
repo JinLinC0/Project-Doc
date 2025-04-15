@@ -167,6 +167,7 @@ export default {
                 { text: '类与对象', link: '/B_Java/类与对象' },
                 { text: 'API', link: '/B_Java/API' },
                 { text: '面向对象编程', link: '/B_Java/面向对象编程' },
+                { text: '枚举和注解', link: '/B_Java/枚举和注解' },
             ]
         }
     ],
