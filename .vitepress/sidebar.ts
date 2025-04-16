@@ -168,6 +168,8 @@ export default {
                 { text: 'API', link: '/B_Java/API' },
                 { text: '面向对象编程', link: '/B_Java/面向对象编程' },
                 { text: '枚举和注解', link: '/B_Java/枚举和注解' },
+                { text: '异常', link: '/B_Java/异常' },
+                { text: '设计模式', link: '/B_Java/设计模式' },
             ]
         }
     ],
