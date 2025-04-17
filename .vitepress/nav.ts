@@ -7,6 +7,7 @@ export default [
             { text: 'GoJs', link: '/F_GoJs/基本概念' },
             { text: 'HTML', link: '/F_HTML/基本概念' },
             { text: 'TailwindCSS', link: '/F_TailwindCSS/基本概念' },
+            { text: 'VeeValidate', link: '/F_VeeValidate/基本概念' },
             { text: 'VitePress', link: '/F_VitePress/基本概念' },
         ]
     },

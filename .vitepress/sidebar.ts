@@ -1,7 +1,7 @@
 export default {
     /**
      * 前端部分
-     * 包括FastCrud、GoJs、HTML、TailwindCSS、Vitepress（按照首字母排序）
+     * 包括FastCrud、GoJs、HTML、TailwindCSS、VeeValidate、Vitepress（按照首字母排序）
      */
     '/F_FastCrud/': [
         {
@@ -70,6 +70,20 @@ export default {
                 { text: '响应式处理', link: '/F_TailwindCSS/响应式处理' },
                 { text: '封装复用的样式', link: '/F_TailwindCSS/封装复用的样式' },
                 { text: '使用积累', link: '/F_TailwindCSS/使用积累' },
+            ]
+        }
+    ],
+    '/F_VeeValidate': [
+        {
+            text: 'VeeValidate',
+            items: [
+                { text: '基本概念', link: '/F_VeeValidate/基本概念' },
+                { text: '安装配置', link: '/F_VeeValidate/安装配置' },
+                { text: '基本使用', link: '/F_VeeValidate/基本使用' },
+                { text: '配合插槽使用原生表单', link: '/F_VeeValidate/配合插槽使用原生表单' },
+                { text: '使用Api操作验证表单', link: '/F_VeeValidate/使用Api操作验证表单' },
+                { text: 'yup的基本使用', link: '/F_VeeValidate/yup的基本使用' },
+                { text: '封装验证规则', link: '/F_VeeValidate/封装验证规则' },
             ]
         }
     ],
