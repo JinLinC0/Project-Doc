@@ -1,8 +1,20 @@
 export default {
     /**
      * 前端部分
-     * 包括FastCrud、GoJs、HTML、TailwindCSS、VeeValidate、Vitepress（按照首字母排序）
+     * 包括ECharts、FastCrud、GoJs、HTML、TailwindCSS、VeeValidate、Vitepress（按照首字母排序）
      */
+    '/F_ECharts/': [
+        {
+            text: 'ECharts',
+            items: [
+                { text: '基本概念', link: '/F_ECharts/基本概念' },
+                { text: '下载配置', link: '/F_ECharts/下载配置' },
+                { text: '构建图表', link: '/F_ECharts/构建图表' },
+                { text: '常用属性', link: '/F_ECharts/常用属性' },
+                { text: '事件监听', link: '/F_ECharts/事件监听' },
+            ]
+        }
+    ],
     '/F_FastCrud/': [
         {
             text: 'FastCrud',

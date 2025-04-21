@@ -3,6 +3,7 @@ export default [
     { 
         text: '前端',
         items: [
+            { text: 'ECharts', link: '/F_ECharts/基本概念' },
             { text: 'FastCrud', link: '/F_FastCrud/基本概念' },
             { text: 'GoJs', link: '/F_GoJs/基本概念' },
             { text: 'HTML', link: '/F_HTML/基本概念' },
