@@ -55,7 +55,7 @@ export default [
             { text: 'Vue项目配置问题', link: '/E_Vue项目配置问题/基本概念' },
             { text: 'Web开发环境搭建', link: '/E_Web开发环境搭建/基本概念' },
             { text: '面试问题积累', link: '/E_面试问题积累/基本概念' },
-            { text: '开发积累', link: '/E_开发积累/基本概念' },
+            { text: '开发积累-RBM项目', link: '/E_开发积累-RBM项目/基本概念' },
         ]
     },
     // { 
