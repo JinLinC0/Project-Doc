@@ -151,7 +151,7 @@ export default {
 
     /**
      * 后端部分
-     * 包括Django、Hadoop、Java、NestJs、Python（按照首字母排序）
+     * 包括Django、Hadoop、Java、NestJs、Python、ThingsBoard（按照首字母排序）
      */
     '/B_Django/': [
         {
@@ -236,6 +236,16 @@ export default {
                 { text: '语义操作系统', link: '/B_Python/语义操作系统' },
                 { text: '网络爬虫', link: '/B_Python/网络爬虫' },
                 { text: '使用技巧', link: '/B_Python/使用技巧' },
+            ]
+        }
+    ],
+    '/B_ThingsBoard/': [
+        {
+            text: 'ThingsBoard',
+            items: [
+                { text: '基本概念', link: '/B_ThingsBoard/基本概念' },
+                { text: '环境搭建', link: '/B_ThingsBoard/环境搭建' },
+                { text: '基础知识', link: '/B_ThingsBoard/基本使用' },
             ]
         }
     ],

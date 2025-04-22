@@ -24,10 +24,10 @@ export default [
         items: [
             { text: 'Django', link: '/B_Django/基本概念' },
             { text: 'Hadoop', link: '/B_Hadoop/基本概念' },
-            { text: 'Java后端学习规划', link: '/B_Java后端学习规划/Java后端学习规划' },
             { text: 'Java', link: '/B_Java/基本概念' },
             { text: 'NestJS', link: '/B_NestJS/基本概念' },
             { text: 'Python', link: '/B_Python/基本概念' },
+            { text: 'ThingsBoard', link: '/B_ThingsBoard/基本概念' },
         ]
     },
     { 
@@ -51,6 +51,7 @@ export default [
     { 
         text: '经验积累',
         items: [
+            { text: 'Java后端学习规划', link: '/E_Java后端学习规划/Java后端学习规划' },
             { text: 'Web开发环境搭建', link: '/E_Web开发环境搭建/基本概念' },
             { text: '面试问题积累', link: '/E_面试问题积累/基本概念' },
             { text: '开发积累', link: '/E_开发积累/基本概念' },
