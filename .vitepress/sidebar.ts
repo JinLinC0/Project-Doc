@@ -1,8 +1,32 @@
 export default {
     /**
      * 前端部分
-     * 包括ECharts、FastCrud、GoJs、HTML、TailwindCSS、VeeValidate、Vitepress（按照首字母排序）
+     * 包括CesiumJs、ECharts、FastCrud、GoJs、HTML、TailwindCSS、VeeValidate、Vitepress（按照首字母排序）
      */
+    '/F_CesiumJs/': [
+        {
+            text: 'CesiumJs',
+            items: [
+                { text: '基本概念', link: '/F_CesiumJs/基本概念' },
+                { text: 'Cesium源码编译', link: '/F_CesiumJs/Cesium源码编译' },
+                { text: '环境搭建', link: '/F_CesiumJs/环境搭建' },
+                { text: '视图Viewer', link: '/F_CesiumJs/视图Viewer' },
+                { text: '坐标系', link: '/F_CesiumJs/坐标系' },
+                { text: '视角', link: '/F_CesiumJs/视角' },
+                { text: '时间设置', link: '/F_CesiumJs/时间设置' },
+                { text: 'entity实体', link: '/F_CesiumJs/entity实体' },
+                { text: '鼠标事件', link: '/F_CesiumJs/鼠标事件' },
+                { text: '回调函数', link: '/F_CesiumJs/回调函数' },
+                { text: '锁定点', link: '/F_CesiumJs/锁定点' },
+                { text: '在地图上添加几何图形', link: '/F_CesiumJs/在地图上添加几何图形' },
+                { text: '动目标', link: '/F_CesiumJs/动目标' },
+                { text: '场景设置', link: '/F_CesiumJs/场景设置' },
+                { text: '官方API文档学习', link: '/F_CesiumJs/官方API文档学习' },
+                { text: '封装组件', link: '/F_CesiumJs/封装组件' },
+                { text: '在线Cesium项目', link: '/F_CesiumJs/在线Cesium项目' },
+            ]
+        }
+    ],
     '/F_ECharts/': [
         {
             text: 'ECharts',
