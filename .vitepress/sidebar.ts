@@ -57,6 +57,7 @@ export default {
                 { text: '图片和链接', link: '/F_HTML/图片和链接' },
                 { text: '表单', link: '/F_HTML/表单' },
                 { text: '表格与音频', link: '/F_HTML/表格与音频' },
+                { text: 'iframe标签', link: '/F_HTML/iframe标签' },
             ]
         }
     ],
