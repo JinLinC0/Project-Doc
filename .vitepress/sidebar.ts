@@ -196,6 +196,7 @@ export default {
                 { text: '枚举和注解', link: '/B_Java/枚举和注解' },
                 { text: '异常', link: '/B_Java/异常' },
                 { text: '常用类', link: '/B_Java/常用类' },
+                { text: '集合', link: '/B_Java/集合' },
                 { text: '设计模式', link: '/B_Java/设计模式' },
             ]
         }
