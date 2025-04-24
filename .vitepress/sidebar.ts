@@ -1,7 +1,7 @@
 export default {
     /**
      * 前端部分
-     * 包括CesiumJs、ECharts、FastCrud、GoJs、HTML、TailwindCSS、VeeValidate、Vitepress（按照首字母排序）
+     * 包括CesiumJs、ECharts、FastCrud、GoJs、HTML、Pinia、TailwindCSS、VeeValidate、Vitepress（按照首字母排序）
      */
     '/F_CesiumJs/': [
         {
@@ -92,6 +92,16 @@ export default {
                 { text: '表单', link: '/F_HTML/表单' },
                 { text: '表格与音频', link: '/F_HTML/表格与音频' },
                 { text: 'iframe标签', link: '/F_HTML/iframe标签' },
+            ]
+        }
+    ],
+    '/F_Pinia/': [
+        {
+            text: 'Pinia',
+            items: [
+                { text: '基本概念', link: '/F_Pinia/基本概念' },
+                { text: '安装配置', link: '/F_Pinia/安装配置' },
+                { text: '基本使用', link: '/F_Pinia/基本使用' },
             ]
         }
     ],
