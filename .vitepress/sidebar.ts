@@ -222,6 +222,7 @@ export default {
                 { text: '异常', link: '/B_Java/异常' },
                 { text: '常用类', link: '/B_Java/常用类' },
                 { text: '集合', link: '/B_Java/集合' },
+                { text: '泛型', link: '/B_Java/泛型' },
                 { text: '设计模式', link: '/B_Java/设计模式' },
             ]
         }
