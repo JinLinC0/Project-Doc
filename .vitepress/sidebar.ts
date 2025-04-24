@@ -39,6 +39,16 @@ export default {
             ]
         }
     ],
+    '/F_Element Plus/': [
+        {
+            text: 'Element Plus',
+            items: [
+                { text: '基本概念', link: '/F_Element Plus/基本概念' },
+                { text: '下载和配置', link: '/F_Element Plus/下载和配置' },
+                { text: '基本使用', link: '/F_Element Plus/基本使用' },
+            ]
+        }
+    ],
     '/F_FastCrud/': [
         {
             text: 'FastCrud',
