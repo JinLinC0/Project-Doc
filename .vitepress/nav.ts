@@ -13,6 +13,7 @@ export default [
             { text: 'TailwindCSS', link: '/F_TailwindCSS/基本概念' },
             { text: 'VeeValidate', link: '/F_VeeValidate/基本概念' },
             { text: 'VitePress', link: '/F_VitePress/基本概念' },
+            { text: 'Vue3', link: '/F_Vue3/基本概念' },
         ]
     },
     { 

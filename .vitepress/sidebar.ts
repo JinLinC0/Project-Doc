@@ -1,7 +1,7 @@
 export default {
     /**
      * 前端部分
-     * 包括CesiumJs、ECharts、FastCrud、GoJs、HTML、Pinia、TailwindCSS、VeeValidate、Vitepress（按照首字母排序）
+     * 包括CesiumJs、ECharts、FastCrud、GoJs、HTML、Pinia、TailwindCSS、VeeValidate、Vitepress、Vue3（按照首字母排序）
      */
     '/F_CesiumJs/': [
         {
@@ -158,6 +158,33 @@ export default {
                 { text: '基本配置', link: '/F_VitePress/基本配置' },
                 { text: '自定义首页', link: '/F_VitePress/自定义首页' },
                 { text: '问题记录', link: '/F_VitePress/问题记录' },
+            ]
+        }
+    ],
+    '/F_Vue3/': [
+        {
+            text: 'Vue3',
+            items: [
+                { text: '基本概念', link: '/F_Vue3/基本概念' },
+                { text: '开发环境', link: '/F_Vue3/开发环境' },
+                { text: '项目搭建', link: '/F_Vue3/项目搭建' },
+                { text: '组件和应用', link: '/F_Vue3/组件和应用' },
+                { text: '属性的绑定', link: '/F_Vue3/属性的绑定' },
+                { text: '选项式API', link: '/F_Vue3/选项式API' },
+                { text: '文本插值', link: '/F_Vue3/文本插值' },
+                { text: '指令', link: '/F_Vue3/指令' },
+                { text: '组件的样式控制', link: '/F_Vue3/组件的样式控制' },
+                { text: '事件', link: '/F_Vue3/事件' },
+                { text: 'props传递数据', link: '/F_Vue3/props传递数据' },
+                { text: '非props的传递', link: '/F_Vue3/非props的传递' },
+                { text: '插槽', link: '/F_Vue3/插槽' },
+                { text: '动态组件', link: '/F_Vue3/动态组件' },
+                { text: '生命周期函数', link: '/F_Vue3/生命周期函数' },
+                { text: '组合式API', link: '/F_Vue3/组合式API' },
+                { text: 'setup函数', link: '/F_Vue3/setup函数' },
+                { text: '<script setup>语法糖', link: '/F_Vue3/<script setup>语法糖' },
+                { text: 'vue3与typescript结合', link: '/F_Vue3/vue3与typescript结合' },
+                { text: '抽离封装', link: '/F_Vue3/抽离封装' },
             ]
         }
     ],
