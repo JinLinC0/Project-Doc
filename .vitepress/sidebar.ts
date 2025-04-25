@@ -101,7 +101,12 @@ export default {
             items: [
                 { text: '基本概念', link: '/F_Pinia/基本概念' },
                 { text: '安装配置', link: '/F_Pinia/安装配置' },
-                { text: '基本使用', link: '/F_Pinia/基本使用' },
+                { text: '状态(State)', link: '/F_Pinia/状态(State)' },
+                { text: '动作(Actions)', link: '/F_Pinia/动作(Actions)' },
+                { text: '获取器(Getters)', link: '/F_Pinia/获取器(Getters)' },
+                { text: '存储和读取数据', link: '/F_Pinia/存储和读取数据' },
+                { text: '修改数据', link: '/F_Pinia/修改数据' },
+                { text: '事件侦听', link: '/F_Pinia/事件侦听' },
             ]
         }
     ],
