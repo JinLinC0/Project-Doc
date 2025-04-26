@@ -1,7 +1,7 @@
 export default {
     /**
      * 前端部分
-     * 包括CesiumJs、ECharts、FastCrud、GoJs、HTML、Pinia、TailwindCSS、VeeValidate、Vitepress、Vue3（按照首字母排序）
+     * 包括CesiumJs、ECharts、FastCrud、GoJs、HTML、Pinia、TailwindCSS、VeeValidate、Vitepress、Vue3、Vue Router（按照首字母排序）
      */
     '/F_CesiumJs/': [
         {
@@ -185,6 +185,27 @@ export default {
                 { text: '<script setup>语法糖', link: '/F_Vue3/<script setup>语法糖' },
                 { text: 'vue3与typescript结合', link: '/F_Vue3/vue3与typescript结合' },
                 { text: '抽离封装', link: '/F_Vue3/抽离封装' },
+            ]
+        }
+    ],
+    '/F_Vue Router/': [
+        {
+            text: 'Vue Router',
+            items: [
+                { text: '基本概念', link: '/F_Vue Router/基本概念' },
+                { text: '安装配置', link: '/F_Vue Router/安装配置' },
+                { text: '基本使用', link: '/F_Vue Router/基本使用' },
+                { text: '查询字符串和路径传递参数', link: '/F_Vue Router/查询字符串和路径传递参数' },
+                { text: '路由跳转', link: '/F_Vue Router/路由跳转' },
+                { text: '自定义404页面', link: '/F_Vue Router/自定义404页面' },
+                { text: '编程式导航', link: '/F_Vue Router/编程式导航' },
+                { text: '页面样式', link: '/F_Vue Router/页面样式' },
+                { text: '嵌套路由结合共享组件', link: '/F_Vue Router/嵌套路由结合共享组件' },
+                { text: '重定向', link: '/F_Vue Router/重定向' },
+                { text: '获取当前的路由信息', link: '/F_Vue Router/获取当前的路由信息' },
+                { text: '全局前置守卫', link: '/F_Vue Router/全局前置守卫' },
+                { text: '命名视图', link: '/F_Vue Router/命名视图' },
+                { text: '布局视图', link: '/F_Vue Router/布局视图' },
             ]
         }
     ],

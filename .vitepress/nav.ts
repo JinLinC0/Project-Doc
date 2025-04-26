@@ -6,7 +6,7 @@ export default [
             { text: 'CesiumJs', link: '/F_CesiumJs/基本概念' },
             { text: 'ECharts', link: '/F_ECharts/基本概念' },
             { text: 'Element Plus', link: '/F_Element Plus/基本概念' },
-            { text: 'FastCrud', link: '/F_FastCrud/基本概念' },
+            { text: 'FastCrud', link: '/F_FasVue RoutertCrud/基本概念' },
             { text: 'GoJs', link: '/F_GoJs/基本概念' },
             { text: 'HTML', link: '/F_HTML/基本概念' },
             { text: 'Pinia', link: '/F_Pinia/基本概念' },
@@ -14,6 +14,7 @@ export default [
             { text: 'VeeValidate', link: '/F_VeeValidate/基本概念' },
             { text: 'VitePress', link: '/F_VitePress/基本概念' },
             { text: 'Vue3', link: '/F_Vue3/基本概念' },
+            { text: 'Vue Router', link: '/F_Vue Router/基本概念' },
         ]
     },
     { 
