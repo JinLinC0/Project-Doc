@@ -39,6 +39,7 @@ export default [
         text: '网络通信',
         items: [
             { text: '网络相关概念', link: '/W_网络相关概念/基本概念' },
+            { text: '网络编程', link: '/W_网络编程/基本概念' },
             { text: 'mqtt', link: '/html/基础知识' },
         ]
     },

@@ -504,7 +504,7 @@ export default {
 
     /**
      * 网络通信部分
-     * 包括网络相关概念（按照首字母排序）
+     * 包括网络相关概念、网络编程（按照首字母排序）
      */
     '/W_网络相关概念/': [
         {
@@ -516,6 +516,19 @@ export default {
                 { text: '域名和端口号', link: '/W_网络相关概念/域名和端口号' },
                 { text: '网络协议', link: '/W_网络相关概念/网络协议' },
                 { text: '网络通信', link: '/W_网络相关概念/网络通信' },
+            ]
+        }
+    ],
+    '/W_网络编程/': [
+        {
+            text: '网络编程',
+            items: [
+                { text: '基本概念', link: '/W_网络编程/基本概念' },
+                { text: 'InetAddress类', link: '/W_网络编程/InetAddress类' },
+                { text: 'netstat指令', link: '/W_网络编程/netstat指令' },
+                { text: 'Socket', link: '/W_网络编程/Socket' },
+                { text: '基于Socket的TCP编程', link: '/W_网络编程/基于Socket的TCP编程' },
+                { text: '基于Socket的UDP编程', link: '/W_网络编程/基于Socket的UDP编程' },
             ]
         }
     ],
