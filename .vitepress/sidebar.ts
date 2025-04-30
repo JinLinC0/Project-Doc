@@ -220,7 +220,8 @@ export default {
             items: [
                 { text: '基本概念', link: '/D_MySQL/基本概念' },
                 { text: '连接数据库服务器', link: '/D_MySQL/连接数据库服务器' },
-                { text: '导入外部SQL文件', link: '/D_MySQL/导入外部SQL文件' },
+                { text: '数据库相关指令', link: '/D_MySQL/数据库相关指令' },
+                { text: '备份和恢复数据库', link: '/D_MySQL/备份和恢复数据库' },
                 { text: '数据库管理操作', link: '/D_MySQL/数据库管理操作' },
                 { text: '数据类型', link: '/D_MySQL/数据类型' },
                 { text: '时间日期', link: '/D_MySQL/时间日期' },
