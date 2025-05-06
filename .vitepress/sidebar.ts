@@ -304,7 +304,9 @@ export default {
                 { text: '事件处理机制', link: '/B_Java/事件处理机制' },
                 { text: '线程', link: '/B_Java/线程' },
                 { text: 'IO流', link: '/B_Java/IO流' },
+                { text: '反射', link: '/B_Java/反射' },
                 { text: '设计模式', link: '/B_Java/设计模式' },
+                { text: '数据库相关', link: '/B_Java/数据库相关' },
             ]
         }
     ],
