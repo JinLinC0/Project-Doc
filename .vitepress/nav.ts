@@ -41,6 +41,7 @@ export default [
             { text: '网络相关概念', link: '/W_网络相关概念/基本概念' },
             { text: '网络编程', link: '/W_网络编程/基本概念' },
             { text: 'MQTT', link: '/W_MQTT/基本概念' },
+            { text: 'Protobuf', link: '/W_Protobuf/基本概念' },
         ]
     },
     { 

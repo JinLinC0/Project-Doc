@@ -550,6 +550,18 @@ export default {
             ]
         }
     ],
+    '/W_Protobuf/': [
+        {
+            text: 'Protobuf',
+            items: [
+                { text: '基本概念', link: '/W_Protobuf/基本概念' },
+                { text: '数据类型', link: '/W_Protobuf/数据类型' },
+                { text: '特殊字符', link: '/W_Protobuf/特殊字符' },
+                { text: 'grpc传输', link: '/W_Protobuf/grpc传输' },
+                { text: '基本使用', link: '/W_Protobuf/基本使用' },
+            ]
+        }
+    ],
 
     // '/P_communicate/': [
     //     {
