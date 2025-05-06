@@ -539,6 +539,17 @@ export default {
             ]
         }
     ],
+    '/W_MQTT/': [
+        {
+            text: 'MQTT',
+            items: [
+                { text: '基本概念', link: '/W_MQTT/基本概念' },
+                { text: 'MQTT客户端连接服务端', link: '/W_MQTT/MQTT客户端连接服务端' },
+                { text: '客户端发布和订阅', link: '/W_MQTT/客户端发布和订阅' },
+                { text: 'MQTT平台的搭建和使用', link: '/W_MQTT/MQTT平台的搭建和使用' },
+            ]
+        }
+    ],
 
     // '/P_communicate/': [
     //     {
