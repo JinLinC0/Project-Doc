@@ -1,8 +1,17 @@
 export default {
     /**
      * 前端部分
-     * 包括CesiumJs、ECharts、FastCrud、GoJs、HTML、Pinia、TailwindCSS、VeeValidate、Vitepress、Vue3、Vue Router（按照首字母排序）
+     * 包括Axios、CesiumJs、CSS、ECharts、FastCrud、GoJs、HTML、Pinia、TailwindCSS、VeeValidate、Vitepress、Vue3、Vue Router（按照首字母排序）
      */
+    '/F_Axios/': [
+        {
+            text: 'Axios',
+            items: [
+                { text: '基本概念', link: '/F_Axios/基本概念' },
+                { text: '在Vue3中的使用', link: '/F_Axios/在Vue3中的使用' },
+            ]
+        }
+    ],
     '/F_CesiumJs/': [
         {
             text: 'CesiumJs',

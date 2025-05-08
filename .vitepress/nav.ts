@@ -3,6 +3,7 @@ export default [
     { 
         text: '前端',
         items: [
+            { text: 'Axios', link: '/F_Axios/基本概念' },
             { text: 'CesiumJs', link: '/F_CesiumJs/基本概念' },
             { text: 'CSS', link: '/F_CSS/基本概念' },
             { text: 'ECharts', link: '/F_ECharts/基本概念' },
