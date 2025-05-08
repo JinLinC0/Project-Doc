@@ -1,7 +1,7 @@
 export default {
     /**
      * 前端部分
-     * 包括Axios、CesiumJs、CSS、ECharts、FastCrud、GoJs、HTML、Pinia、TailwindCSS、VeeValidate、Vitepress、Vue3、Vue Router（按照首字母排序）
+     * 包括Axios、CesiumJs、CSS、ECharts、FastCrud、GoJs、HTML、JavaScript、Pinia、TailwindCSS、VeeValidate、Vitepress、Vue3、Vue Router（按照首字母排序）
      */
     '/F_Axios/': [
         {
@@ -125,6 +125,36 @@ export default {
                 { text: '表单', link: '/F_HTML/表单' },
                 { text: '表格与音频', link: '/F_HTML/表格与音频' },
                 { text: 'iframe标签', link: '/F_HTML/iframe标签' },
+            ]
+        }
+    ],
+    '/F_JavaScript/': [
+        {
+            text: 'JavaScript',
+            items: [
+                { text: '基本概念', link: '/F_JavaScript/基本概念' },
+                { text: '开发工具', link: '/F_JavaScript/开发工具' },
+                { text: '外部脚本', link: '/F_JavaScript/外部脚本' },
+                { text: '内容输出', link: '/F_JavaScript/内容输出' },
+                { text: '严格模式', link: '/F_JavaScript/严格模式' },
+                { text: '关键词', link: '/F_JavaScript/关键词' },
+                { text: '编写规范', link: '/F_JavaScript/编写规范' },
+                { text: '变量', link: '/F_JavaScript/变量' },
+                { text: '运算符', link: '/F_JavaScript/运算符' },
+                { text: '数据类型', link: '/F_JavaScript/数据类型' },
+                { text: '控制语句', link: '/F_JavaScript/控制语句' },
+                { text: '函数', link: '/F_JavaScript/函数' },
+                { text: '作用域和闭包', link: '/F_JavaScript/作用域和闭包' },
+                { text: '原型', link: '/F_JavaScript/原型' },
+                { text: '继承', link: '/F_JavaScript/继承' },
+                { text: '类', link: '/F_JavaScript/类' },
+                { text: '异常处理', link: '/F_JavaScript/异常处理' },
+                { text: '声明提升', link: '/F_JavaScript/声明提升' },
+                { text: 'this关键字', link: '/F_JavaScript/this关键字' },
+                { text: '新增特性', link: '/F_JavaScript/新增特性' },
+                { text: '同步和异步', link: '/F_JavaScript/同步和异步' },
+                { text: 'HTML DOM', link: '/F_JavaScript/HTML DOM' },
+                { text: 'AJAX', link: '/F_JavaScript/AJAX' },
             ]
         }
     ],

@@ -11,6 +11,7 @@ export default [
             { text: 'FastCrud', link: '/F_FasVue RoutertCrud/基本概念' },
             { text: 'GoJs', link: '/F_GoJs/基本概念' },
             { text: 'HTML', link: '/F_HTML/基本概念' },
+            { text: 'JavaScript', link: '/F_JavaScript/基本概念' },
             { text: 'Pinia', link: '/F_Pinia/基本概念' },
             { text: 'TailwindCSS', link: '/F_TailwindCSS/基本概念' },
             { text: 'VeeValidate', link: '/F_VeeValidate/基本概念' },
