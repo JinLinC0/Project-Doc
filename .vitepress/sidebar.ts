@@ -27,6 +27,30 @@ export default {
             ]
         }
     ],
+    '/F_CSS/': [
+        {
+            text: 'CSS',
+            items: [
+                { text: '基本概念', link: '/F_CSS/基本概念' },
+                { text: '基本语法', link: '/F_CSS/基本语法' },
+                { text: '添加', link: '/F_CSS/添加' },
+                { text: '选择器', link: '/F_CSS/选择器' },
+                { text: '权重', link: '/F_CSS/权重' },
+                { text: '继承', link: '/F_CSS/继承' },
+                { text: '文本样式', link: '/F_CSS/文本样式' },
+                { text: '盒子模型', link: '/F_CSS/盒子模型' },
+                { text: '背景与渐变', link: '/F_CSS/背景与渐变' },
+                { text: '数据元素样式', link: '/F_CSS/数据元素样式' },
+                { text: '浮动', link: '/F_CSS/浮动' },
+                { text: '定位布局', link: '/F_CSS/定位布局' },
+                { text: '其他属性', link: '/F_CSS/其他属性' },
+                { text: '响应式设计', link: '/F_CSS/响应式设计' },
+                { text: 'flex弹性盒模型', link: '/F_CSS/flex弹性盒模型' },
+                { text: 'grid网格系统', link: '/F_CSS/grid网格系统' },
+                { text: 'SCSS', link: '/F_CSS/SCSS' },
+            ]
+        }
+    ],
     '/F_ECharts/': [
         {
             text: 'ECharts',

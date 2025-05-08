@@ -4,6 +4,7 @@ export default [
         text: '前端',
         items: [
             { text: 'CesiumJs', link: '/F_CesiumJs/基本概念' },
+            { text: 'CSS', link: '/F_CSS/基本概念' },
             { text: 'ECharts', link: '/F_ECharts/基本概念' },
             { text: 'Element Plus', link: '/F_Element Plus/基本概念' },
             { text: 'FastCrud', link: '/F_FasVue RoutertCrud/基本概念' },
