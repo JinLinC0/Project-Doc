@@ -1,7 +1,7 @@
 export default {
     /**
      * 前端部分
-     * 包括Axios、CesiumJs、CSS、ECharts、FastCrud、GoJs、HTML、JavaScript、Pinia、TailwindCSS、VeeValidate、Vitepress、Vue3、Vue Router（按照首字母排序）
+     * 包括Axios、CesiumJs、CSS、ECharts、FastCrud、GoJs、HTML、JavaScript、Pinia、PyQt5、TailwindCSS、VeeValidate、Vitepress、Vue3、Vue Router（按照首字母排序）
      */
     '/F_Axios/': [
         {
@@ -170,6 +170,23 @@ export default {
                 { text: '存储和读取数据', link: '/F_Pinia/存储和读取数据' },
                 { text: '修改数据', link: '/F_Pinia/修改数据' },
                 { text: '事件侦听', link: '/F_Pinia/事件侦听' },
+            ]
+        }
+    ],
+    '/F_PyQt5/': [
+        {
+            text: 'PyQt5',
+            items: [
+                { text: '基本概念', link: '/F_PyQt5/基本概念' },
+                { text: '环境搭建', link: '/F_PyQt5/环境搭建' },
+                { text: '第一个PyQt5应用', link: '/F_PyQt5/第一个PyQt5应用' },
+                { text: '控件继承结构', link: '/F_PyQt5/控件继承结构' },
+                { text: '基本控件', link: '/F_PyQt5/基本控件' },
+                { text: '高级组件', link: '/F_PyQt5/高级组件' },
+                { text: '布局管理', link: '/F_PyQt5/布局管理' },
+                { text: '信号与槽', link: '/F_PyQt5/信号与槽' },
+                { text: '图形和特效', link: '/F_PyQt5/图形和特效' },
+                { text: '编程技巧', link: '/F_PyQt5/编程技巧' },
             ]
         }
     ],

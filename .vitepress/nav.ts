@@ -13,6 +13,7 @@ export default [
             { text: 'HTML', link: '/F_HTML/基本概念' },
             { text: 'JavaScript', link: '/F_JavaScript/基本概念' },
             { text: 'Pinia', link: '/F_Pinia/基本概念' },
+            { text: 'PyQt5', link: '/F_PyQt5/基本概念' },
             { text: 'TailwindCSS', link: '/F_TailwindCSS/基本概念' },
             { text: 'VeeValidate', link: '/F_VeeValidate/基本概念' },
             { text: 'VitePress', link: '/F_VitePress/基本概念' },
