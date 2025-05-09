@@ -215,6 +215,16 @@ export default {
             ]
         }
     ],
+    '/F_ToastEditor/': [
+        {
+            text: 'ToastEditor',
+            items: [
+                { text: '基本概念', link: '/F_ToastEditor/基本概念' },
+                { text: '安装配置', link: '/F_ToastEditor/安装配置' },
+                { text: '基本使用和个性化', link: '/F_ToastEditor/基本使用和个性化' },
+            ]
+        }
+    ],
     '/F_VeeValidate': [
         {
             text: 'VeeValidate',
@@ -286,6 +296,16 @@ export default {
                 { text: '全局前置守卫', link: '/F_Vue Router/全局前置守卫' },
                 { text: '命名视图', link: '/F_Vue Router/命名视图' },
                 { text: '布局视图', link: '/F_Vue Router/布局视图' },
+            ]
+        }
+    ],
+    '/F_wangEditor/': [
+        {
+            text: 'wangEditor',
+            items: [
+                { text: '基本概念', link: '/F_wangEditor/基本概念' },
+                { text: '安装配置', link: '/F_wangEditor/安装配置' },
+                { text: '基本使用和个性化', link: '/F_wangEditor/基本使用和个性化' },
             ]
         }
     ],

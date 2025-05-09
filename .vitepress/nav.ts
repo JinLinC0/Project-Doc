@@ -15,10 +15,12 @@ export default [
             { text: 'Pinia', link: '/F_Pinia/基本概念' },
             { text: 'PyQt5', link: '/F_PyQt5/基本概念' },
             { text: 'TailwindCSS', link: '/F_TailwindCSS/基本概念' },
+            { text: 'ToastEditor', link: '/F_ToastEditor/基本概念' },
             { text: 'VeeValidate', link: '/F_VeeValidate/基本概念' },
             { text: 'VitePress', link: '/F_VitePress/基本概念' },
             { text: 'Vue3', link: '/F_Vue3/基本概念' },
             { text: 'Vue Router', link: '/F_Vue Router/基本概念' },
+            { text: 'wangEditor', link: '/F_wangEditor/基本概念' },
         ]
     },
     { 
