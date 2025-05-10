@@ -16,8 +16,8 @@ export const siteData = [
     {
         name: "在线Cesium",
         desc: "在线Cesium项目，基于Vue3开发，使用了Cesium进行三维地球的构建，使用sandpack进行了在线代码编译的实现。",
-        github: "https://vitejs.dev/",
-        gitee: "https://vitejs.dev/",
+        github: "https://github.com/JinLinC0/Project-CesiumFrame",
+        gitee: "https://gitee.com/JinLinC/preject-cesium-frame",
         className: "color-blue-deep"
     },
     {
