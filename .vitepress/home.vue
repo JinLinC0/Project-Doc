@@ -7,7 +7,7 @@
                     <h3 :class="['title', data.className]">{{ data.name }}</h3>
                     <p class="desc">{{ data.desc }}</p>
                     <div class="footer">
-                        <button class="btn">在线体验</button>
+                        <button class="btn" v-if="data.online">在线体验</button>
                         <div class="git">
                             <span>开源代码仓库:</span>
                             <a :href="data.github" target="_blank">
@@ -123,11 +123,7 @@ import gitee from '../images/gitee.svg'
 .footer {
     margin-top: auto;
     text-align: center;
-    padding: 10px 0;
     border-top: 1px solid #282c31;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     cursor: default;
 }
 
