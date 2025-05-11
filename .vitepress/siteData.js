@@ -58,8 +58,8 @@ export const siteData = [
     {
         name: "垃圾分析小程序",
         desc: "基于开源项目修改，加入了一些自定义的页面和功能，用于垃圾分类和分类知识科普。",
-        github: "https://vitejs.dev/",
-        gitee: "https://vitejs.dev/",
+        github: "https://github.com/JinLinC0/Project-Garbage",
+        gitee: "https://gitee.com/JinLinC/project-garbage",
         className: "color-blue",
         online: false
     },
