@@ -50,8 +50,8 @@ export const siteData = [
     {
         name: "数字化大屏",
         desc: "数字化大屏项目，基于Vue3进行开发，使用了Echarts进行数据可视化展示。",
-        github: "https://vitejs.dev/",
-        gitee: "https://vitejs.dev/",
+        github: "https://github.com/JinLinC0/Project-BigScreen",
+        gitee: "https://gitee.com/JinLinC/project-big-screen",
         className: "color-blue-deep",
         online: true
     },
