@@ -407,6 +407,7 @@ export default {
                 { text: '反射', link: '/B_Java/反射' },
                 { text: '设计模式', link: '/B_Java/设计模式' },
                 { text: '数据库相关', link: '/B_Java/数据库相关' },
+                { text: '正则表达式', link: '/B_Java/正则表达式' },
             ]
         }
     ],
