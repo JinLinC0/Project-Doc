@@ -8,14 +8,11 @@
 
 ![image-20250513163414455](./images/image-20250513163414455.png)
 
-手机端首页界面：
-
-![image-20250513164055132](./images/image-20250513164055132.png)
-
 电脑端具体笔记界面：
 
 ![image-20250513163454603](./images/image-20250513163454603.png)
 
-手机端具体笔记界面：
+手机端首页和具体笔记界面：
 
-![image-20250513164145146](./images/image-20250513164145146.png)
+![image-20250513164055132](D:\Myproject\develop-study-notes\images\image-20250513164055132-1747125945616-1.png)![image-20250513164145146](D:\Myproject\develop-study-notes\images\image-20250513164145146-1747125945616-2.png)
+
