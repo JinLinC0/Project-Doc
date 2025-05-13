@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 个人简介
-      link: /markdown-examples
+      link: /introduceMe.md
     - theme: alt
       text: 笔记更新历程
       link: /笔记更新历程.md
