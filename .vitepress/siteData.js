@@ -42,8 +42,8 @@ export const siteData = [
     {
         name: "Gojs",
         desc: "Gojs项目，基于Vue3进行开发，包含了前端项目后台管理的基础部分（如界面、路由和权限控制等等）。",
-        github: "https://vitejs.dev/",
-        gitee: "https://vitejs.dev/",
+        github: "https://github.com/JinLinC0/Project-GojsDemo",
+        gitee: "https://gitee.com/JinLinC/project-gojs-demo",
         className: "color-red",
         online: true
     },
