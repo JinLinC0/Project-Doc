@@ -7,14 +7,15 @@
                     <h3 :class="['title', data.className]">{{ data.name }}</h3>
                     <p class="desc">{{ data.desc }}</p>
                     <div class="footer">
-                        <button class="btn" v-if="data.online">在线体验</button>
+                        <button class="btn" v-if="data.online" @click="showMessage">在线体验</button>
                         <div class="git">
                             <span>开源代码仓库:</span>
                             <a :href="data.github" target="_blank">
-                                <img :src="github" style="width: 20px; height: 20px; margin-left: 5px; cursor: pointer;" >
+                                <img :src="github"
+                                    style="width: 20px; height: 20px; margin-left: 5px; cursor: pointer;">
                             </a>
                             <a :href="data.gitee" target="_blank">
-                                <img :src="gitee" style="width: 20px; height: 20px; margin-left: 5px; cursor: pointer;" >
+                                <img :src="gitee" style="width: 20px; height: 20px; margin-left: 5px; cursor: pointer;">
                             </a>
                         </div>
                     </div>
@@ -28,6 +29,10 @@
 import { siteData } from './siteData'
 import github from '../images/github.svg'
 import gitee from '../images/gitee.svg'
+
+function showMessage() {
+    alert('未部署，敬请期待');
+}
 </script>
 
 <style>
@@ -128,7 +133,7 @@ import gitee from '../images/gitee.svg'
 }
 
 .btn {
-    color: antiquewhite; 
+    color: antiquewhite;
     background-color: cadetblue;
     border-radius: 5px;
     padding: 3px;
