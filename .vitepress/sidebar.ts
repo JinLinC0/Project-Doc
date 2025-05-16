@@ -57,6 +57,7 @@ export default {
                 { text: 'flex弹性盒模型', link: '/F_CSS/flex弹性盒模型' },
                 { text: 'grid网格系统', link: '/F_CSS/grid网格系统' },
                 { text: 'SCSS', link: '/F_CSS/SCSS' },
+                { text: '相关问题积累', link: '/F_CSS/相关问题积累' },
             ]
         }
     ],
