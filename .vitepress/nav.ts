@@ -36,7 +36,7 @@ export default [
             { text: 'Django', link: '/B_Django/基本概念' },
             { text: 'Hadoop', link: '/B_Hadoop/基本概念' },
             { text: 'Java', link: '/B_Java/基本概念' },
-            { text: 'NestJS', link: '/B_NestJS/基本概念' },
+            { text: 'NestJs', link: '/B_NestJs/基本概念' },
             { text: 'Python', link: '/B_Python/基本概念' },
             { text: 'ThingsBoard', link: '/B_ThingsBoard/基本概念' },
         ]
