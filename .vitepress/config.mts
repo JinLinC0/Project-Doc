@@ -7,6 +7,7 @@ export default defineConfig({
   title: "JinLinC个人在线文档库",
   description: "分享个人的开发学习文档",
   srcDir: "./docs/",
+  base: '/Project-Doc/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.svg',
