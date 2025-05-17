@@ -16,8 +16,8 @@ export const siteData = [
         online: false
     },
     {
-        name: "在线Cesium",
-        desc: "在线Cesium项目，基于Vue3开发，使用了Cesium进行三维地球的构建，使用sandpack进行了在线代码编译的实现。",
+        name: "Cesium编辑器",
+        desc: "Cesium编辑器项目，基于Vue3开发，使用了Cesium进行三维地球的构建，使用sandpack进行了在线代码编译的实现。",
         github: "https://github.com/JinLinC0/Project-CesiumFrame",
         gitee: "https://gitee.com/JinLinC/preject-cesium-frame",
         className: "color-blue-deep",
@@ -25,11 +25,11 @@ export const siteData = [
     },
     {
         name: "博客",
-        desc: "在线的博客项目，前端使用Vue3开发，后端使用NestJs开发。",
+        desc: "在线的博客项目，前端使用Vue3开发，后端使用NestJs开发。支持文章的发布、查看、编辑、删除等功能。",
         github: "https://github.com/JinLinC0/Project-Blog",
         gitee: "https://gitee.com/JinLinC/project-blog",
         className: "color-blue",
-        online: false
+        online: true
     },
     {
         name: "在线笔记文档",
@@ -40,7 +40,7 @@ export const siteData = [
         online: true
     },
     {
-        name: "Gojs",
+        name: "思维导图",
         desc: "Gojs项目，基于Vue3进行开发，包含了前端项目后台管理的基础部分（如界面、路由和权限控制等等）。",
         github: "https://github.com/JinLinC0/Project-GojsDemo",
         gitee: "https://gitee.com/JinLinC/project-gojs-demo",
