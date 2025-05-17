@@ -8,5 +8,5 @@
     "build": "vitepress build",
     "preview": "vitepress preview"
   },
-  "packageManager": "pnpm@8.6.12"
+  "packageManager": "npm@10.7.0"
 }
