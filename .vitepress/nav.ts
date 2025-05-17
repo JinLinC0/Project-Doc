@@ -8,7 +8,7 @@ export default [
             { text: 'CSS', link: '/F_CSS/基本概念' },
             { text: 'ECharts', link: '/F_ECharts/基本概念' },
             { text: 'Element Plus', link: '/F_Element Plus/基本概念' },
-            { text: 'FastCrud', link: '/F_FasVue RoutertCrud/基本概念' },
+            { text: 'FastCrud', link: '/F_FastCrud/基本概念' },
             { text: 'GoJs', link: '/F_GoJs/基本概念' },
             { text: 'HTML', link: '/F_HTML/基本概念' },
             { text: 'JavaScript', link: '/F_JavaScript/基本概念' },
