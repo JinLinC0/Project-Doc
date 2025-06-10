@@ -355,7 +355,7 @@ export default {
 
     /**
      * 后端部分
-     * 包括Django、Hadoop、Java、NestJs、Python、ThingsBoard（按照首字母排序）
+     * 包括Django、Hadoop、Java、MyBatis、NestJs、Python、Spring、SpringBoot、SpringMVC、SSM框架整合、ThingsBoard（按照首字母排序）
      */
     '/B_Django/': [
         {
@@ -412,6 +412,23 @@ export default {
             ]
         }
     ],
+    '/B_MyBatis/': [
+        {
+            text: 'MyBatis',
+            items: [
+                { text: '框架引出', link: '/B_MyBatis/框架引出' },
+                { text: '基本概念', link: '/B_MyBatis/基本概念' },
+                { text: '快速入门', link: '/B_MyBatis/快速入门' },
+                { text: '映射文件', link: '/B_MyBatis/映射文件' },
+                { text: '增删改查操作', link: '/B_MyBatis/增删改查操作' },
+                { text: '核心配置文件', link: '/B_MyBatis/核心配置文件' },
+                { text: '相应的API', link: '/B_MyBatis/相应的API' },
+                { text: 'MyBatis的Dao层实现', link: '/B_MyBatis/MyBatis的Dao层实现' },
+                { text: '多表操作', link: '/B_MyBatis/多表操作' },
+                { text: '注解开发', link: '/B_MyBatis/注解开发' },
+            ]
+        }
+    ],
     '/B_NestJs/': [
         {
             text: 'NestJs',
@@ -449,6 +466,66 @@ export default {
                 { text: '语义操作系统', link: '/B_Python/语义操作系统' },
                 { text: '网络爬虫', link: '/B_Python/网络爬虫' },
                 { text: '使用技巧', link: '/B_Python/使用技巧' },
+            ]
+        }
+    ],
+    '/B_Spring/': [
+        {
+            text: 'Spring',
+            items: [
+                { text: '基本概念', link: '/B_Spring/基本概念' },
+                { text: '开发步骤', link: '/B_Spring/开发步骤' },
+                { text: '配置文件', link: '/B_Spring/配置文件' },
+                { text: '相关API', link: '/B_Spring/相关API' },
+                { text: '配置数据源', link: '/B_Spring/配置数据源' },
+                { text: '注解开发', link: '/B_Spring/注解开发' },
+                { text: '整合Junit', link: '/B_Spring/整合Junit' },
+                { text: 'Web环境的集成', link: '/B_Spring/Web环境的集成' },
+                { text: 'JdbcTemplate', link: '/B_Spring/JdbcTemplate' },
+                { text: 'AOP', link: '/B_Spring/AOP' },
+                { text: '事务控制', link: '/B_Spring/事务控制' },
+            ]
+        }
+    ],
+    '/B_SpringBoot/': [
+        {
+            text: 'SpringBoot',
+            items: [
+                { text: '基本概念', link: '/B_SpringBoot/基本概念' },
+                { text: '快速入门', link: '/B_SpringBoot/快速入门' },
+                { text: '起步依赖', link: '/B_SpringBoot/起步依赖' },
+                { text: '配置', link: '/B_SpringBoot/配置' },
+                { text: '整合其他框架', link: '/B_SpringBoot/整合其他框架' },
+                { text: '自动配置原理分析', link: '/B_SpringBoot/自动配置原理分析' },
+                { text: '监听机制原理分析', link: '/B_SpringBoot/监听机制原理分析' },
+                { text: '监控', link: '/B_SpringBoot/监控' },
+                { text: '打包部署', link: '/B_SpringBoot/打包部署' },
+            ]
+        }
+    ],
+    '/B_SpringMVC/': [
+        {
+            text: 'SpringMVC',
+            items: [
+                { text: '基本概念', link: '/B_SpringMVC/基本概念' },
+                { text: '快速入门', link: '/B_SpringMVC/快速入门' },
+                { text: 'XML配置解析', link: '/B_SpringMVC/XML配置解析' },
+                { text: '组件解析', link: '/B_SpringMVC/组件解析' },
+                { text: '注解解析', link: '/B_SpringMVC/注解解析' },
+                { text: '数据响应', link: '/B_SpringMVC/数据响应' },
+                { text: '获取请求数据', link: '/B_SpringMVC/获取请求数据' },
+                { text: '拦截器', link: '/B_SpringMVC/拦截器' },
+                { text: '异常处理机制', link: '/B_SpringMVC/异常处理机制' },
+            ]
+        }
+    ],
+    '/B_SSM框架整合/': [
+        {
+            text: 'SSM框架整合',
+            items: [
+                { text: '基本概念', link: '/B_SSM框架整合/基本概念' },
+                { text: '原始的整合方式', link: '/B_SSM框架整合/原始的整合方式' },
+                { text: 'MyBatis整合Spring实现', link: '/B_SSM框架整合/MyBatis整合Spring实现' },
             ]
         }
     ],

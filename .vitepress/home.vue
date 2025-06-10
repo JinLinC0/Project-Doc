@@ -1,13 +1,16 @@
 <template>
     <div class="ui-home">
         <h2 class="ui-title">个人开源项目</h2>
+        <div style="display: flex; justify-content: center; align-items: center">
+            纯前端的静态项目都已经部署在GitHub Pages上，可以点击在线体验查看效果
+        </div>
         <div class="ui-project">
             <div class="item" v-for="data in siteData" :key="data.name">
                 <div class="link" :href="data.link" target="_blank">
                     <h3 :class="['title', data.className]">{{ data.name }}</h3>
                     <p class="desc">{{ data.desc }}</p>
                     <div class="footer">
-                        <button class="btn" v-if="data.online" @click="showMessage">在线体验</button>
+                        <button class="btn" v-if="data.online" @click="goTo(data.online)">在线体验</button>
                         <div class="git">
                             <span>开源代码仓库:</span>
                             <a :href="data.github" target="_blank">
@@ -30,8 +33,8 @@ import { siteData } from './siteData'
 import github from '../images/github.svg'
 import gitee from '../images/gitee.svg'
 
-function showMessage() {
-    alert('未部署，敬请期待');
+function goTo(url) {
+    window.open(url)
 }
 </script>
 

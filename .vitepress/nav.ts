@@ -36,8 +36,13 @@ export default [
             { text: 'Django', link: '/B_Django/基本概念' },
             { text: 'Hadoop', link: '/B_Hadoop/基本概念' },
             { text: 'Java', link: '/B_Java/基本概念' },
+            { text: 'MyBatis', link: '/B_MyBatis/框架引出' },
             { text: 'NestJs', link: '/B_NestJs/基本概念' },
             { text: 'Python', link: '/B_Python/基本概念' },
+            { text: 'Spring', link: '/B_Spring/基本概念' },
+            { text: 'SpringBoot', link: '/B_SpringBoot/基本概念' },
+            { text: 'SpringMVC', link: '/B_SpringMVC/基本概念' },
+            { text: 'SSM框架整合', link: '/B_SSM框架整合/基本概念' },
             { text: 'ThingsBoard', link: '/B_ThingsBoard/基本概念' },
         ]
     },
